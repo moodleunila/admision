@@ -1,0 +1,29 @@
+/* Your custom css code goes here */
+.texto-dorado{
+  color: #CAB276;
+}
+
+.texto-blanco{
+  color: #FFF;
+}
+
+.justificado{
+	text-align: justify;
+}
+
+.negritas{
+	font-weight: bold;
+}
+
+.centrado{
+	text-align: center;
+}
+
+.recuadro{
+	padding: 20px !important;
+}
+
+.color-header{
+	background: linear-gradient(white , black);
+}
+

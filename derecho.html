@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Universidad Latina | Licenciaturas | Administración</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/pe-icons.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <script src="js/jquery.js"></script>
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/images/ico/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57x57.png">
+    <link rel="icon" type="image/png" href="images/unila/logo.png">
+    <script type="text/javascript">
+    jQuery(document).ready(function($){
+    'use strict';
+        jQuery('body').backstretch([
+            "licenciaturas/img/unila/turismo.png"
+        ], {duration: 5000, fade: 500});
+
+        $("#mapwrapper").gMap({ controls: false,
+            scrollwheel: false,
+            markers: [{     
+                latitude:40.7566,
+                longitude: -73.9863,
+            icon: { image: "images/marker.png",
+                iconsize: [44,44],
+                iconanchor: [12,46],
+                infowindowanchor: [12, 0] } }],
+            icon: { 
+                image: "images/marker.png", 
+                iconsize: [26, 46],
+                iconanchor: [12, 46],
+                infowindowanchor: [12, 0] },
+            latitude:40.7566,
+            longitude: -73.9863,
+            zoom: 14 });
+    });
+
+    $(document).ready(function(){
+        $("#btn-presencial").on("click", function(){
+            $("#sua").hide("slow");
+            $("#presencial").show("slow");
+            $(this).css("background-color", "#e9ecef");
+            $("#btn-sua").css("background-color", "#CAB276");
+        });
+
+        $("#btn-sua").on("click", function(){            
+            $("#presencial").hide("slow");
+            $("#sua").show("slow");
+            $(this).css("background-color", "#e9ecef");
+            $("#btn-presencial").css("background-color", "#CAB276");
+        });
+    });
+    </script>
+</head><!--/head-->
+<body>
+<div id="preloader"></div>
+    <header style="height: 100px;" class="navbar navbar-inverse navbar-fixed-top " role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <i class="fa fa-bars"></i>
+                </button>
+                 <a class="navbar-brand" href="index.html"><img src="images/unila/logo_blanco.png" width="35%"></a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">                    
+                    <li class="dropdown active">                    
+                    </li>                    
+                    <li><a href="#descripcion">Descripción</a></li>
+                    <li><a href="#ingreso">Ingreso</a></li>
+                    <li><a href="#desarrollo">Desarrollo</a></li>
+                    <li><a href="#egreso">Egreso</a></li>
+                    <li><a href="#detalles">Detalles</a></li>
+                    <li><a href="http://testvocacional.unila.edu.mx/" target="_blank">Test vocacional</a></li>
+                </ul>
+            </div>
+        </div>
+    </header><!--/header-->
+
+    <section id="main-slider" class="no-margin">
+        <div class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="carousel-content center centered">                                    
+                                    <h2 class="boxed animation fade-down">ADMINISTRACIÓN</h2>         
+                                    <br>                           
+                                    <a class="btn btn-md animation bounce-in" href="#formulario">Contáctanos</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.item-->
+            </div><!--/.carousel-inner-->
+        </div><!--/.carousel-->
+    </section><!--/#main-slider-->
+
+
+
+    
+    <div id="content-wrapper">
+        <!--###############
+        DESCRIPCIÓN DE LA CARRERA
+        ###################
+        -->
+        <section id="descripcion" class="white">
+            <div class="container">            
+                <div class="gap"></div>
+                <div class="row">                           
+                    <div class="col-sm-13 col-sm-pull-1">
+                        <div class="">                            
+                            <h2 class="main-title texto-dorado">Descripción de la carrera</h2> 
+                            <p class="justificado">
+                            La administración se preocupa por el uso efectivo y la coordinación de recursos y mano de obra en
+                            la búsqueda de los objetivos definidos de la organización. Considera la interrelación e
+                            interacciones entre distintas partes de una organización, y entre la organización y su entorno. Los
+                            estudiantes de administración observan las teorías, los modelos y los marcos a fin de comprender
+                            cómo se comportan los administradores y considerar su papel en el proceso de toma de
+                            decisiones, incluyendo el establecimiento de estrategias y coordinación de los esfuerzos de sus
+                            empleados para lograr sus objetivos a través de la aplicación de recursos financieros, naturales,
+                            tecnológicos y humanos.<br><br>
+                            El profesional que guía una organización requiere liderazgo, visión estratégica, ética y compromiso
+                            social, valores que nuestro programa de Licenciatura en Administración te permiten desarrollar en
+                            un ambiente donde los profesores escucharán tus puntos de vista y propuestas. Sea privada,
+                            social o gubernamental, toda organización necesita un administrador que gestione los recursos
+                            humanos, materiales y financieros para que alcance su máximo potencial, lo que podrás hacer tras
+                            egresar de la UNILA.<br><br>
+                            La Universidad está comprometida en la formación de administradores que tengan impacto global,
+                            ha implementado una licenciatura enfocada en educar para carreras comerciales exitosas y
+                            abordar problemas a escala mundial, ofreciendo programas de vanguardia e investigación pionera
+                            que transforman a individuos, organizaciones, prácticas comerciales y a la sociedad optimizando el
+                            empleo de recursos, mediante aplicación de técnicas de planeación, organización, dirección y
+                            control, utilizadas en las distintas áreas funcionales, tales como: recursos humanos, finanzas,
+                            mercadotecnia, producción e informática.<br><br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!--###############
+        PERFIL DE INGRESO
+        ###################
+        -->
+
+        <section id="ingreso" class="white">
+            <div class="container">            
+                <div class="gap"></div>
+                <div class="row">                           
+                    <div class="col-sm-13 col-sm-pull-1">
+                        <div class="blog">                            
+                            <h2 class="main-title texto-dorado">Perfil de ingreso</h2>
+                            <p class="justificado">
+                                El aspirante debe tener excelentes habilidades de comunicación escrita y verbal, conocimientos de
+                                un segundo idioma, facilidad para la toma de decisiones y resolución de problemas, inclinación
+                                natural por el servicio al cliente, capacidad para trabajar en equipo, y dotes motivacionales y de
+                                liderazgo. Facilidad de análisis para la toma de decisiones, visión emprendedora y adaptación al
+                                cambio, así como dominio de procesos básicos de las matemáticas.<br><br>
+
+                                Proactivo, creativo y eficiente, con interés en el manejo de problemas organizacionales y con
+                                habilidad para manejar las relaciones interpersonales, con la sensibilidad suficiente que permita
+                                identificar problemas sociales.<br><br>
+
+                                La capacidad de análisis es fundamental, la presencia de valores como el respeto, responsabilidad,
+                                honestidad, compromiso e integridad son las bases sobre las que se deben consolidar todas las
+                                carreras universitarias; en el caso de administración más considerando el papel de confianza que
+                                juega un administrador dentro de una empresa, organización, institución pública o privada.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--###############
+        ÁREAS DE DESARROLLO
+        ###################
+        -->
+        
+        <section id="desarrollo" class="white">
+            <div class="container">            
+                <div class="gap"></div>
+                <div class="row">                           
+                    <div class="col-sm-13 col-sm-pull-1">
+                        <div class="blog">                            
+                            <h2 class="main-title texto-dorado">Áreas de desarrollo</h2>  
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item justificado">Banca y finanzas de inversión, corporativas, y manejo de fondos de inversión y casas de
+                                        bolsa.</li>
+                                        <li class="list-group-item justificado caja-gris-clara">Consultoría y planeación estratégica de una empresa</li>
+                                        <li class="list-group-item justificado">Administrador general en empresas privadas, fundaciones o asociaciones e instituciones
+                                        publicas.</li>                                        
+                                        <li class="list-group-item justificado caja-gris-clara">Encargados de Recursos humanos y áreas de compras y abastecimientos</li>
+                                        <li class="list-group-item justificado">Auditor</li>
+                                        <li class="list-group-item justificado caja-gris-clara">Despachos de Consultoría Administrativa.</li>                                        
+                                        <li class="list-group-item justificado">Consultoría independiente, como emprendedor de su propio negocio.</li>                                        
+                                        <li class="list-group-item justificado caja-gris-clara">Evaluador de planes y programas estratégicos en las cinco áreas de su especialidad.</li>
+                                        <li class="list-group-item justificado">Instituciones Educativas [investigación y enseñanza], Culturales o Deportivas.</li>
+
+                                        <li class="list-group-item justificado caja-gris-clara">En empresas corporativas transnacionales y nacionales de bienes de consumo incluyendo
+                                        agencias de investigación de mercados, agencias de publicidad y promoción y
+                                        mercadotecnia digital.</li>
+                                        <li class="list-group-item justificado">En empresas transnacionales encargado de comercio internacional, relaciones públicas
+                                        internacionales y proyectos de expansión internacional.</li>                                        
+                                    </ul>
+                                </div>                                
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--###############
+        PERFIL DE EGRESO
+        ###################
+        -->
+        
+        <section id="egreso" class="white">
+            <div class="container">            
+                <div class="gap"></div>
+                <div class="row">                           
+                    <div class="col-sm-13 col-sm-pull-1">
+                        <div class="blog">                            
+                            <h2 class="main-title texto-dorado">Perfil de egreso</h2>
+                            <p class="justificado">
+                                El alumno egresado de la Licenciatura en Administración tendrá la capacidad y las competencias
+                                para tomar decisiones con enfoque estratégico, con el objetivo de facilitar el crecimiento y el
+                                desarrollo de aquellas organizaciones, instituciones públicas o privadas donde ejerza su profesión
+                                en cualquiera de las áreas funcionales de la empresa [ desarrollo empresarial, dirección
+                                estratégica, finanzas, mercadotecnia y negocios y donde existen oportunidades de crecimiento que
+                                se puedan desarrollar.<br><br>
+                                Capacidad analítica, objetividad y creatividad que faciliten la solución de problemas, apoyado por
+                                equipos multidisciplinarios que permitan generar productos y estrategias que propicien el
+                                surgimiento de nuevos negocios y la consolidación de los ya existentes.<br><br>
+
+                                Debe contar con habilidades de comunicación oral y escrita. Ético y responsable con visión global
+                                de los negocios
+                            </p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--###############
+        DETALLES (DURACIÓN E IMPARTICIÓN)
+        ###################
+        -->
+        
+        <section id="detalles" class="white">
+            <div class="container">            
+                <div class="gap"></div>
+                <div class="row">   
+                    <div class="col-sm-13 col-sm-pull-1">
+                        <div class="container" style="border: 5px;">
+                            <h2 class="main-title texto-dorado">Duración e impartición</h2>
+                            <br>
+                            <p class="justificado">
+                            La licenciatura en Administración pone a su disposición dos modalidades:
+                            </p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">            
+                <div class="gap"></div>
+                <div class="row">                           
+                    <div class=" col-md-6 col-sm-12 center">
+                        <button type="button" class="btn btn-secondary caja-dorada" id="btn-presencial" style="padding: 1px 5px;"><h4>Presencial</h4></button>
+                    </div>
+                    <div class=" col-md-6 col-sm-12 center">
+                        <button type="button" class="btn btn-secondary caja-dorada" id="btn-sua" style="padding: 1px 5px;"><h4>Sistema de Universidad Abierta (SUA)</h4></button>
+                    </div>
+                </div>
+            </div>
+
+            <!--P R E S E N C I A L -->
+            <div id="presencial" style="display: none;">
+                <div class="container">            
+                    <div class="gap"></div>
+                    <div class="row">                           
+                        <div class="col-sm-13 col-sm-pull-1">
+                        <div class="container" style="border: 5px;">     
+                        <h2 class="main-title texto-dorado centrado">Presencial - UNAM</h2>
+                            <br>                       
+                            <p class="centrado">
+                            La modadlidad presencial se imparte en los siguientes campus, dé clic en ellos para ver detalles
+                            </p> 
+                        </div>
+                    </div>
+                        <div class="col-sm-13 col-sm-pull-1">
+                            <div class="container" style="border: 5px;">                                                                     
+                                <div class="col-md-4 col-sm-12 center">
+                                    <a href="" data-toggle="modal" data-target="#campus-sur-p"><img src="images/unila/logo_campus_sur.png" width="70%"></a>
+                                </div><!--/.col-md-3-->
+                                <div class="col-md-4 col-sm-12 center">
+                                    <a href="" data-toggle="modal" data-target="#campus-roma-p"><img src="images/unila/logo_campus_roma.png" width="70%"></a>
+                                </div><!--/.col-md-3-->
+                                <div class="col-md-4 col-sm-12 center">
+                                <br>
+                                    <a href="" data-toggle="modal" data-target="#campus-cuernavaca-p"><img src="images/unila/logo_campus_cuernavaca.png" width="80%"></a>
+                                </div><!--/.col-md-3-->
+                            </div>
+                            <br>
+                            <br>
+                            <div class="row">
+                                <div class=" col-md-12 col-sm-12 center">
+                                    <h3 class="texto-dorado">Plan de estudios</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class=" col-md-4 col-sm-12 center">
+                                    <p> </p>
+                                </div>
+                                <div class=" col-md-4 col-sm-12 center">
+                                    <p class="center">
+
+                                        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups" style="text-align: center !important;">
+                                            <div class="btn-group mr-2 btn-group-sm" role="group" aria-label="First group">
+                                                <button class="btn btn-light" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Semestres</button>
+                                                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">1</button>
+                                                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">2</button>
+                                                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">3</button>
+                                                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">4</button>
+                                                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#multiCollapseExample5" aria-expanded="false" aria-controls="multiCollapseExample5">5</button>
+                                                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#multiCollapseExample6" aria-expanded="false" aria-controls="multiCollapseExample6">6</button>
+                                                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#multiCollapseExample7" aria-expanded="false" aria-controls="multiCollapseExample7">7</button>
+                                                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#multiCollapseExample8" aria-expanded="false" aria-controls="multiCollapseExample8">8</button>                                                        
+                                            </div>
+                                        </div>               
+                                    </p>                                            
+                                </div>
+                                <div class=" col-md-4 col-sm-12 center">
+                                    <p> </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="container">
+                                    <div class=" col-md-4 col-sm-12">
+                                        <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                            <div class="card card-body ">                                            
+                                                <h5 class="texto-dorado">Primer semestre</h5>
+                                                <ul>
+                                                    <li>Entorno de las Organizaciones</li>
+                                                    <li>Estadística Descriptiva</li>
+                                                    <li>Fundamentos de Administración</li>
+                                                    <li>Tecnologías de Información y Comunicación</li>
+                                                    <li>Conceptos Jurídicos Fundamentales</li>
+                                                    <li>Teoría del Conocimiento</li>
+
+                                                </ul>                                            
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=" col-md-4 col-sm-12">
+                                        <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                            <div class="card card-body ">                                            
+                                                <h5 class="texto-dorado">Segundo semestre</h5>
+                                                <ul>
+                                                    <li>Estadística Inferencial</li>
+                                                    <li>Organización y Procedimientos</li>
+                                                    <li>Macroeconomía</li>
+                                                    <li>Principios y Técnicas de la Investigación</li>
+                                                    <li>Derecho Laboral</li>
+                                                </ul>                                           
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=" col-md-4 col-sm-12">
+                                        <div class="collapse multi-collapse" id="multiCollapseExample3">
+                                            <div class="card card-body ">                                            
+                                                <h5 class="texto-dorado">Tercer semestre</h5>
+                                                <ul>
+                                                    <li>Comportamiento en las Organizaciones</li>
+                                                    <li>Derecho Corporativo Empresarial</li>
+                                                    <li>Desarrollo Sustentable y las Organizaciones</li>
+                                                    <li>Fundamentos de Mercadotecnia</li>
+                                                    <li>Costos</li>
+                                                    <li>Microeconomía</li>
+                                                    <li>Dirección</li>
+                                                </ul>                                           
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class=" col-md-4 col-sm-12">
+                                        <div class="collapse multi-collapse" id="multiCollapseExample4">
+                                            <div class="card card-body ">                                            
+                                                <h5 class="texto-dorado">Cuarto semestre</h5>
+                                                <ul>
+                                                    <li>Planeación e Integración de los Recursos Humanos</li>
+                                                    <li>Planeación y Control</li>
+                                                    <li>Razonamiento Lógico Matemático para la Toma de Decisiones</li>
+                                                    <li>Sistemas de Información de Mercadotecnia</li>
+                                                    <li>Presupuestos</li>
+                                                    <li>Ética en las Organizaciones</li>
+                                                    <li>Optativa (Módulo I)</li>
+                                                </ul>                                           
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=" col-md-4 col-sm-12">
+                                        <div class="collapse multi-collapse" id="multiCollapseExample5">
+                                            <div class="card card-body ">                                            
+                                                <h5 class="texto-dorado">Quinto semestre</h5>
+                                                <ul>
+                                                    <li>Matemáticas Financieras</li>
+                                                    <li>Administración de Cadenas de Suministro</li>
+                                                    <li>Desarrollo y Calidad de Vida para los Recursos Humanos</li>
+                                                    <li>Plan de Mercadotecnia</li>
+                                                    <li>Técnicas, Enfoques y Temas Administrativos Contemporáneos</li>
+                                                    <li>Optativa (Módulo II)</li>
+                                                </ul>                                           
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=" col-md-4 col-sm-12">
+                                        <div class="collapse multi-collapse" id="multiCollapseExample6">
+                                            <div class="card card-body ">                                            
+                                                <h5 class="texto-dorado">Sexto semestre</h5>
+                                                <ul>
+                                                    <li>Administración de Organizaciones del Sector Social</li>
+                                                    <li>Administración de la Remuneración</li>
+                                                    <li>Administración Estratégica de Operaciones de Bienes y Servicios</li>
+                                                    <li>Finanzas Corporativas</li>
+                                                    <li>Técnicas de Negociación Empresarial</li>
+                                                </ul>                                           
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class=" col-md-4 col-sm-12">
+                                        <div class="collapse multi-collapse" id="multiCollapseExample7">
+                                            <div class="card card-body ">                                            
+                                                <h5 class="texto-dorado">Séptimo semestre</h5>
+                                                <ul>
+                                                    <li>Administración Pública</li>
+                                                    <li>Administración Táctica de Operaciones de Bienes y Servicios</li>
+                                                    <li>Creación de Organizaciones</li>
+                                                    <li>Instrumentos Financieros</li>
+                                                    <li>Optativa (Módulo I)</li>
+                                                    <li>Optativa (Módulo II)</li>
+                                                </ul>                                           
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=" col-md-4 col-sm-12">
+                                        <div class="collapse multi-collapse" id="multiCollapseExample8">
+                                            <div class="card card-body ">                                            
+                                                <h5 class="texto-dorado">Octavo semestre</h5>
+                                                <ul>
+                                                    <li>Administración Estratégica</li>
+                                                    <li>Administración de Proyectos de Inversión</li>
+                                                    <li>Optativa (Módulo II)</li>
+                                                    <li>Optativa (Módulo II)</li>
+                                                    <li>Optativa (Módulo II)</li>
+                                                    <li>Optativa (Módulo II)</li>                                               
+                                                </ul>                                           
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <!--S U A -->
+            <div id="sua" style="display: none;">
+                <div class="container">
+                    <div class="gap"></div>
+                    <div class="row">                           
+                        <div class="col-sm-13 col-sm-pull-1">
+                            <div class="container" style="border: 5px;">     
+                            <h2 class="main-title texto-dorado centrado">SUA - UNAM</h2>
+                                <br>                       
+                                <p class="centrado">
+                                La modadlidad SUA se imparte en los siguientes campus, dé clic en ellos para ver detalles
+                                </p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">            
+                    <div class="gap"></div>
+                    <div class="row">                           
+                        <div class="col-sm-13 col-sm-pull-1">
+                            <div class="container" style="border: 5px;">                                                                     
+                                <div class="col-md-6 col-sm-12 center">
+                                    <a href="" data-toggle="modal" data-target="#campus-sur-sua"><img src="images/unila/logo_campus_sur.png" width="40%"></a>
+                                </div><!--/.col-md-3-->
+                                <div class="col-md-6 col-sm-12 center">
+                                    <a href="" data-toggle="modal" data-target="#campus-roma-sua"><img src="images/unila/logo_campus_roma.png" width="40%"></a>
+                                </div><!--/.col-md-3-->                                
+                            </div>
+                            <br>
+                            <br>
+                            <div class="row">
+                                <div class=" col-md-12 col-sm-12 center">
+                                    <h3 class="texto-dorado">Plan de estudios</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class=" col-md-4 col-sm-12 center">
+                                    <p> </p>
+                                </div>
+                                <div class=" col-md-4 col-sm-12 center">
+                                    <p class="center">
+
+                                        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups" style="text-align: center !important;">
+                                            <div class="btn-group mr-2 btn-group-sm" role="group" aria-label="First group">
+                                                <button class="btn btn-light" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Semestres</button>
+                                                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">1</button>
+                                                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">2</button>
+                                                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">3</button>
+                                                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">4</button>
+                                                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#multiCollapseExample5" aria-expanded="false" aria-controls="multiCollapseExample5">5</button>
+                                                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#multiCollapseExample6" aria-expanded="false" aria-controls="multiCollapseExample6">6</button>
+                                                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#multiCollapseExample7" aria-expanded="false" aria-controls="multiCollapseExample7">7</button>
+                                                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#multiCollapseExample8" aria-expanded="false" aria-controls="multiCollapseExample8">8</button>                                                        
+                                            </div>
+                                        </div>               
+                                    </p>                                            
+                                </div>
+                                <div class=" col-md-4 col-sm-12 center">
+                                    <p> </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="container">
+                                    <div class=" col-md-4 col-sm-12">
+                                        <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                            <div class="card card-body ">                                            
+                                                <h5 class="texto-dorado">Primer semestre</h5>
+                                                <ul>
+                                                    <li>Entorno de las Organizaciones</li>
+                                                    <li>Estadística Descriptiva</li>
+                                                    <li>Fundamentos de Administración</li>
+                                                    <li>Tecnologías de Información y Comunicación</li>
+                                                    <li>Conceptos Jurídicos Fundamentales</li>
+                                                    <li>Teoría del Conocimiento</li>
+
+                                                </ul>                                            
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=" col-md-4 col-sm-12">
+                                        <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                            <div class="card card-body ">                                            
+                                                <h5 class="texto-dorado">Segundo semestre</h5>
+                                                <ul>
+                                                    <li>Estadística Inferencial</li>
+                                                    <li>Organización y Procedimientos</li>
+                                                    <li>Macroeconomía</li>
+                                                    <li>Principios y Técnicas de la Investigación</li>
+                                                    <li>Derecho Laboral</li>
+                                                </ul>                                           
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=" col-md-4 col-sm-12">
+                                        <div class="collapse multi-collapse" id="multiCollapseExample3">
+                                            <div class="card card-body ">                                            
+                                                <h5 class="texto-dorado">Tercer semestre</h5>
+                                                <ul>
+                                                    <li>Comportamiento en las Organizaciones</li>
+                                                    <li>Derecho Corporativo Empresarial</li>
+                                                    <li>Desarrollo Sustentable y las Organizaciones</li>
+                                                    <li>Fundamentos de Mercadotecnia</li>
+                                                    <li>Costos</li>
+                                                    <li>Microeconomía</li>
+                                                    <li>Dirección</li>
+                                                </ul>                                           
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class=" col-md-4 col-sm-12">
+                                        <div class="collapse multi-collapse" id="multiCollapseExample4">
+                                            <div class="card card-body ">                                            
+                                                <h5 class="texto-dorado">Cuarto semestre</h5>
+                                                <ul>
+                                                    <li>Planeación e Integración de los Recursos Humanos</li>
+                                                    <li>Planeación y Control</li>
+                                                    <li>Razonamiento Lógico Matemático para la Toma de Decisiones</li>
+                                                    <li>Sistemas de Información de Mercadotecnia</li>
+                                                    <li>Presupuestos</li>
+                                                    <li>Ética en las Organizaciones</li>
+                                                    <li>Optativa (Módulo I)</li>
+                                                </ul>                                           
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=" col-md-4 col-sm-12">
+                                        <div class="collapse multi-collapse" id="multiCollapseExample5">
+                                            <div class="card card-body ">                                            
+                                                <h5 class="texto-dorado">Quinto semestre</h5>
+                                                <ul>
+                                                    <li>Matemáticas Financieras</li>
+                                                    <li>Administración de Cadenas de Suministro</li>
+                                                    <li>Desarrollo y Calidad de Vida para los Recursos Humanos</li>
+                                                    <li>Plan de Mercadotecnia</li>
+                                                    <li>Técnicas, Enfoques y Temas Administrativos Contemporáneos</li>
+                                                    <li>Optativa (Módulo II)</li>
+                                                </ul>                                           
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=" col-md-4 col-sm-12">
+                                        <div class="collapse multi-collapse" id="multiCollapseExample6">
+                                            <div class="card card-body ">                                            
+                                                <h5 class="texto-dorado">Sexto semestre</h5>
+                                                <ul>
+                                                    <li>Administración de Organizaciones del Sector Social</li>
+                                                    <li>Administración de la Remuneración</li>
+                                                    <li>Administración Estratégica de Operaciones de Bienes y Servicios</li>
+                                                    <li>Finanzas Corporativas</li>
+                                                    <li>Técnicas de Negociación Empresarial</li>
+                                                </ul>                                           
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class=" col-md-4 col-sm-12">
+                                        <div class="collapse multi-collapse" id="multiCollapseExample7">
+                                            <div class="card card-body ">                                            
+                                                <h5 class="texto-dorado">Séptimo semestre</h5>
+                                                <ul>
+                                                    <li>Administración Pública</li>
+                                                    <li>Administración Táctica de Operaciones de Bienes y Servicios</li>
+                                                    <li>Creación de Organizaciones</li>
+                                                    <li>Instrumentos Financieros</li>
+                                                    <li>Optativa (Módulo I)</li>
+                                                    <li>Optativa (Módulo II)</li>
+                                                </ul>                                           
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=" col-md-4 col-sm-12">
+                                        <div class="collapse multi-collapse" id="multiCollapseExample8">
+                                            <div class="card card-body ">                                            
+                                                <h5 class="texto-dorado">Octavo semestre</h5>
+                                                <ul>
+                                                    <li>Administración Estratégica</li>
+                                                    <li>Administración de Proyectos de Inversión</li>
+                                                    <li>Optativa (Módulo II)</li>
+                                                    <li>Optativa (Módulo II)</li>
+                                                    <li>Optativa (Módulo II)</li>
+                                                    <li>Optativa (Módulo II)</li>                                               
+                                                </ul>                                           
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="formulario" class="white">
+            
+        </section>
+    </div>
+                                    
+                                    
+
+    <div id="footer-wrapper">
+        <section id="contact">
+            <div class="container about-us-widget">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <br>
+
+                        
+                    </div>
+                </div>
+                <div class="row">                
+                    <div class="col-md-6 col-sm-6">
+                        <h4 class="texto-blanco">Conoce los campus donde se imparte la Licenciatura</h4>
+                        <div> 
+                            <div class="media">
+                                <div class="pull-left">
+                                    <img class="widget-img" src="images/unila/sur.jpg" alt="" width="100%">
+                                </div>
+                                <div class="media-body">                                    
+                                    <span class="media-heading"><a href="http://www.unila.edu.mx/unila-campus-sur-coyoacan" class="texto-blanco negritas">Sur</a></span>                                   
+                                </div>
+                            </div>                           
+                            <div class="media">
+                                <div class="pull-left">
+                                    <img class="widget-img" src="images/unila/roma.jpg" alt="" width="100%">
+                                </div>
+                                <div class="media-body">                                    
+                                    <span class="media-heading"><a href="http://www.unila.edu.mx/unila-campus-roma" class="texto-blanco negritas">Roma</a></span>                                   
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="pull-left">
+                                    <img class="widget-img" src="images/unila/cuernavaca.jpg" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <span class="media-heading"><a href="http://www.unila.edu.mx/unila-campus-cuernavaca" class="texto-blanco negritas">Cuernavaca</a></span>                                    
+                                </div>
+                            </div>
+                        </div>  
+                    </div><!--/.col-md-3-->
+                    <div class="col-md-6 col-sm-6">                        
+                        <div id="message"><h3 class="main-title texto-dorado centrado">No lo pienses más, ¡Contáctanos!</h3></div>
+                        <form method="post" action="sendemail.php" id="contactform">
+                            <input style="background-color: #e9ecef;" type="text" name="name" id="name" placeholder="Nombre" />
+                            <input style="background-color: #e9ecef;" type="text" name="email" id="email" placeholder="Email" />
+                            <input style="background-color: #e9ecef;" type="text" name="website" id="website" placeholder="Asunto" />
+                            <select name="campus" id="campus" class="form-control" style="background-color: #e9ecef;" style="width: 100%;">
+                                <option id="0" value="0">Campus</option>
+                                <option id="3" value="3">Cuautla</option>
+                                <option id="3" value="3">Cuernavaca</option>
+                            </select>
+                            <br>
+                            <textarea style="background-color: #e9ecef;" name="comments" id="comments" placeholder="Mensaje"></textarea>
+                            <input class="btn btn-outlined btn-primary" type="submit" name="submit" value="Enviar" />
+                        </form>
+                    </div><!-- col -->
+                    
+                </div>
+            </div>
+        </section><!--/#bottom-->
+
+        <footer id="footer" class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <br>
+                        <br>
+                        &copy; 2018 Universidad Latina. Todos los derechos reservados.
+                    </div>
+                    <div class="col-sm-3">
+                        <br>
+                        <br>
+                        <center>
+                            <a class="centrado" href="http://www.unila.edu.mx/aviso-de-privacidad">Aviso de privacidad</a>
+                        </center>
+                    </div>
+                    <div class="col-sm-3">
+                        <ul class="pull-right">
+                            <li><a id="gototop" class="gototop" href="#"><i class="fa fa-chevron-up"></i></a></li><!--#gototop-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer><!--/#footer-->
+    </div>
+
+
+    <!--############# M O D A L E S ############-->
+    <div class="modal fade" id="campus-sur-p" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title texto-dorado centrado" id="exampleModalLabel">Campus Sur</h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">    
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <hr>
+                <div class="modal-body">
+                    <table class="table">
+                        <thead class="thead-dark">
+                        <tr>
+                          <th scope="col" colspan="2" class="centrado"><h4>Datos generales</h4></th>
+                        </tr>
+                      </thead>           
+                        <tbody>
+                            <tr>
+                                <th scope="row">Acuerdo:</th>
+                                <td>UNAM CLAVE 3344-02</td>                                
+                            </tr>
+                            <tr>
+                                <th scope="row">Teléfono</th>
+                                <td>(55) 9171 9670 </td>                               
+                            </tr>
+                            <tr>
+                                <th scope="row">Dirección</th>
+                                <td>
+                                    Pedro Henríquez Ureña 173,Col. Los Reyes
+                                    Del. Coyoacán, México DF. 
+                                </td>                                
+                            </tr>
+                      </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary caja-dorada texto-blanco" data-dismiss="modal">Cerrar</button>            
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="campus-roma-p" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title texto-dorado centrado" id="exampleModalLabel">Campus Roma</h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">    
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <hr>
+                <div class="modal-body">
+                    <table class="table">
+                        <thead class="thead-dark">
+                        <tr>
+                          <th scope="col" colspan="2" class="centrado"><h4>Datos generales</h4></th>
+                        </tr>
+                      </thead>           
+                        <tbody>
+                            <tr>
+                                <th scope="row">Acuerdo:</th>
+                                <td>UNAM CLAVE 3084-02</td>                                
+                            </tr>
+                            <tr>
+                                <th scope="row">Teléfono</th>
+                                <td>(55) 36 40 08 70 </td>                               
+                            </tr>
+                            <tr>
+                                <th scope="row">Dirección</th>
+                                <td>
+                                    Chihuahua 202, Col. Roma, Del. Cuauhtémoc, México DF.
+                                </td>                                
+                            </tr>
+                      </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary caja-dorada texto-blanco" data-dismiss="modal">Cerrar</button>            
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="campus-cuernavaca-p" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title texto-dorado centrado" id="exampleModalLabel">Campus Cuernavaca</h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">    
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <hr>
+                <div class="modal-body">
+                    <table class="table">
+                        <thead class="thead-dark">
+                        <tr>
+                          <th scope="col" colspan="2" class="centrado"><h4>Datos generales</h4></th>
+                        </tr>
+                      </thead>           
+                        <tbody>
+                            <tr>
+                                <th scope="row">Acuerdo:</th>
+                                <td>UNAM CLAVE 8344-02</td>                                
+                            </tr>
+                            <tr>
+                                <th scope="row">Teléfono</th>
+                                <td>(777) 160 1020 al 49 </td>                               
+                            </tr>
+                            <tr>
+                                <th scope="row">Dirección</th>
+                                <td>
+                                     Vicente Guerrero 1806, Col. Las Maravillas, Cuernavaca, Morelos.
+                                </td>                                
+                            </tr>
+                      </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary caja-dorada texto-blanco" data-dismiss="modal">Cerrar</button>            
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="campus-sur-sua" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title texto-dorado centrado" id="exampleModalLabel">Campus Sur</h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">    
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <hr>
+                <div class="modal-body">
+                    <table class="table">
+                        <thead class="thead-dark">
+                        <tr>
+                          <th scope="col" colspan="2" class="centrado"><h4>Datos generales</h4></th>
+                        </tr>
+                      </thead>           
+                        <tbody>
+                            <tr>
+                                <th scope="row">Acuerdo:</th>
+                                <td>UNAM SUA CLAVE 3344-82</td>                                
+                            </tr>
+                            <tr>
+                                <th scope="row">Teléfono</th>
+                                <td>(55) 9171 9670 </td>                               
+                            </tr>
+                            <tr>
+                                <th scope="row">Dirección</th>
+                                <td>
+                                     Pedro Henríquez Ureña 173,Col. Los Reyes, Del. Coyoacán, México DF. 
+                                </td>                                
+                            </tr>
+                      </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary caja-dorada texto-blanco" data-dismiss="modal">Cerrar</button>            
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="campus-roma-sua" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title texto-dorado centrado" id="exampleModalLabel">Campus Roma</h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">    
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <hr>
+                <div class="modal-body">
+                    <table class="table">
+                        <thead class="thead-dark">
+                        <tr>
+                          <th scope="col" colspan="2" class="centrado"><h4>Datos generales</h4></th>
+                        </tr>
+                      </thead>           
+                        <tbody>
+                            <tr>
+                                <th scope="row">Acuerdo:</th>
+                                <td>UNAM SUA CLAVE 3084-82</td>                                
+                            </tr>
+                            <tr>
+                                <th scope="row">Teléfono</th>
+                                <td>(55) 36 40 08 70 </td>                               
+                            </tr>
+                            <tr>
+                                <th scope="row">Dirección</th>
+                                <td>
+                                     Chihuahua 202, Col. Roma, Del. Cuauhtémoc, México DF.
+                                </td>                                
+                            </tr>
+                      </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary caja-dorada texto-blanco" data-dismiss="modal">Cerrar</button>            
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/init.js"></script>    
+</html>
