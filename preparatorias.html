@@ -50,18 +50,19 @@
 </head><!--/head-->
 <body>
 <div id="preloader"></div>
-    <header style="height: 85px;" class="navbar navbar-inverse navbar-fixed-top " role="banner">
+    <header style="" class="navbar navbar-inverse navbar-fixed-top " role="banner">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <i class="fa fa-bars"></i>
                 </button>
-                 <a class="navbar-brand" href="index.html"><img src="images/unila/logo_blanco.png" width="35%"></a>
+                 <a class="navbar-brand" href="http://www.unila.edu.mx"><img src="images/unila/logo_blanco.png" width="35%"></a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">                    
-                    <li class="dropdown active">
+                    <li><a href="./" style="color: #CAB276;"> Admisión </a></li>
+                    <li class="dropdown active">                    
                     <a href="#oferta-educativa-s" class="dropdown-toggle" data-toggle="dropdown">Oferta educativa<i class="icon-angle-down"></i></a>
                     <ul class="dropdown-menu">
                         <li><a href="secundaria.html"><br><br>Básica</a></li>                        
@@ -71,7 +72,7 @@
                         <li><a href="#">Doctorado</a></li>
                     </ul>
                     </li>                                                
-                    <li><a href="#" target="_blank">Calcula tu colegiatura</a></li>                     
+                    <li><a href="#" target="_blank">Calcula tu colegiatura en este sitio</a></li>                     
                 </ul>
             </div>
         </div>
@@ -126,7 +127,7 @@
                             <div class="item-inner">
                                 <a href="cch.html">
                                     <img  src="images/unila/bachillerato/cch-p.png" alt="">
-                                    <h5 class="centrado">Colegio de Ciencias y Humanidades - UNAM</h5>     
+                                    <h5 class="centrado">Colegio de Ciencias<br> y Humanidades - UNAM</h5>     
                                     <div class="overlay">
                                         <div class="preview btn btn-outlined btn-primary" rel="prettyPhoto"><i class="fa fa-eye"></i></div>
                                     </div>                                 
@@ -137,7 +138,7 @@
                             <div class="item-inner">
                                 <a href="preparatoria.html">
                                     <img  src="images/unila/bachillerato/p1-p.png" alt="">
-                                    <h5 class="centrado">Preparatoria - UNAM</h5>     
+                                    <h5 class="centrado">Preparatoria<br>UNAM</h5>     
                                     <div class="overlay">
                                         <div class="preview btn btn-outlined btn-primary" rel="prettyPhoto"><i class="fa fa-eye"></i></div>
                                     </div>                                 
@@ -160,24 +161,9 @@
                 <div class="row">                
                     <div class="col-md-6 col-sm-6">
                         <h4 class="texto-blanco">Conoce todos los campus donde se imparten los bachilleratos</h4>
-                        <div>                                                       
-                            <div class="media">
-                                <div class="pull-left">
-                                    <img class="widget-img" src="images/unila/cuernavaca.jpg" alt="">
-                                </div>
-                                <div class="media-body">
-                                    <span class="media-heading"><a href="http://www.unila.edu.mx/unila-campus-cuernavaca" class="texto-blanco negritas">Cuernavaca</a></span>                                    
-                                </div>
-                            </div>
-                            <div class="media">
-                                <div class="pull-left">
-                                    <img class="widget-img" src="images/unila/cuautla.jpg" alt="">
-                                </div>
-                                <div class="media-body">
-                                    <span class="media-heading"><a href="http://www.unila.edu.mx/unila-campus-cuautla" class="texto-blanco negritas">Cuautla</a></span>                                    
-                                </div>
-                            </div>
-                        </div>
+                        <a href="http://www.unila.edu.mx/unila-campus-sur-coyoacan" class="texto-blanco negritas"><img src="images/unila/logo_campus_sur_s_d.png" width="%"></a><br>
+                        <a href="http://www.unila.edu.mx/unila-campus-cuernavaca" class="texto-blanco negritas"><img src="images/unila/logo_campus_cuernavaca_s_d.png" width="%"></a><br>
+                        <a href="http://www.unila.edu.mx/unila-campus-cuautla" class="texto-blanco negritas"><img src="images/unila/logo_campus_cuautla_s_d.png" width="%"></a>
                     </div><!--/.col-md-3-->
                     <div class="col-md-6 col-sm-6">                        
                         <div id="message"><h3 class="main-title texto-dorado centrado">¡Contáctanos!</h3></div>
@@ -187,6 +173,7 @@
                             <input style="background-color: #e9ecef;" type="text" name="website" id="website" placeholder="Asunto" />
                             <select name="campus" id="campus" class="form-control" style="background-color: #e9ecef;" style="width: 100%;">
                                 <option id="0" value="0">Campus</option>                                
+                                <option id="1" value="1">Sur</option>
                                 <option id="3" value="3">Cuautla</option>
                                 <option id="4" value="4">Cuernavaca</option>
                             </select>
