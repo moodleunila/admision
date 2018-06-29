@@ -386,6 +386,218 @@ $(document).ready(function(){
 			colegiatura = "$3,647";
 			tramites = "$232";
 		}
+	//######## F I N   C A M P U S  R O M A ############
+
+
+
+
+	/*######## C A M P U S   C U A U T L A ###########*/
+		function secundariaCuautla(){				
+			inscripcion = "$3,281";
+			colegiatura = "$2,855";
+			tramites = "$232";				
+		}
+
+		function prepaCuautla(){
+			inscripcion = "$2,975";
+			colegiatura = "$2,416";
+			tramites = "$1,218";	
+		}
+
+		function bachComunicacionCuautla(){
+			inscripcion = "$2,673";
+			colegiatura = "$2,231";
+			tramites = "$232";
+		}
+
+		function bachInformaticaCuautla(){
+			inscripcion = "$2,673";
+			colegiatura = "$2,231";
+			tramites = "$232";
+		}
+
+		function bachTurismoCuautla(){
+			inscripcion = "$2,673";
+			colegiatura = "$2,231";
+			tramites = "$232";
+		}
+
+		function bachVentasCuautla(){
+			inscripcion = "$2,673";
+			colegiatura = "$2,231";
+			tramites = "$232";
+		}
+
+		function licComunicacionCuautla(){
+			switch (modalidad){
+				case 1://Matutino
+					inscripcion = "$2,660";
+					colegiatura = "$3,062";
+					tramites = "$232";				
+					break;
+
+				case 2://Vespertino
+					inscripcion = "$1,535";
+					colegiatura = "$2,725";
+					tramites = "$232";
+					break;
+			}
+		}
+
+		function licContaduriaCuautla(){
+			switch (modalidad){
+				case 1://Matutino
+					inscripcion = "$2,633";
+					colegiatura = "$2,908";
+					tramites = "$232";				
+					break;
+
+				case 2://Vespertino
+					inscripcion = "$1,492";
+					colegiatura = "$2,609";
+					tramites = "$232";
+					break;
+			}
+		}
+
+		function licMercadotecniaCuautla(){
+			switch (modalidad){
+				case 1://Matutino
+					inscripcion = "$2,847";
+					colegiatura = "$2,872";
+					tramites = "$232";				
+					break;
+
+				case 2://Vespertino
+					inscripcion = "$1,518";
+					colegiatura = "$2,427";
+					tramites = "$232";
+					break;
+			}
+		}
+
+		function licGastronomiaCuautla(){
+			switch (modalidad){
+				case 1://Matutino
+					inscripcion = "$2,117";
+					colegiatura = "$2,968";
+					tramites = "$232";				
+					break;
+
+				case 2://Vespertino
+					inscripcion = "$1,489";
+					colegiatura = "$2,778";
+					tramites = "$232";
+					break;
+			}
+		}
+
+		function licTurismoCuautla(){
+			switch (modalidad){
+				case 1://Matutino
+					inscripcion = "$2,398";
+					colegiatura = "$2,660";
+					tramites = "$232";				
+					break;
+
+				case 2://Vespertino
+					inscripcion = "$1,492";
+					colegiatura = "$2,467";
+					tramites = "$232";
+					break;
+			}
+		}
+
+		function licPedagogiaCuautla(){
+			switch (modalidad){
+				case 1://Matutino
+					inscripcion = "$2,453";
+					colegiatura = "$2,954";
+					tramites = "$232";				
+					break;
+
+				case 2://Vespertino
+					inscripcion = "$1,489";
+					colegiatura = "$2,443";
+					tramites = "$232";
+					break;
+			}
+		}
+
+		function licDerechoSepCuautla(){
+			switch (modalidad){
+				case 1://Matutino
+					inscripcion = "$2,667";
+					colegiatura = "$2,961";
+					tramites = "$232";				
+					break;
+
+				case 2://Vespertino
+					inscripcion = "$1,480";
+					colegiatura = "$2,596";
+					tramites = "$232";
+					break;
+			}
+		}
+
+		function licPsicologiaCuautla(){
+			switch (modalidad){
+				case 1://Matutino
+					inscripcion = "$3,089";
+					colegiatura = "$3,062";
+					tramites = "$1,195";				
+					break;
+
+				case 2://Vespertino
+					inscripcion = "$1,493";
+					colegiatura = "$2,521";
+					tramites = "$1,032";
+					break;
+			}
+		}
+
+		function mcdCuautla(){
+			inscripcion = "$5,317";
+			colegiatura = "$3,844";
+			tramites = "$232";
+		}
+
+		function madmCuautla(){
+			inscripcion = "$5,317";
+			colegiatura = "$3,844";
+			tramites = "$232";
+		}
+
+		function mdpejaCuautla(){
+			inscripcion = "$1,845";
+			colegiatura = "$2,112";
+			tramites = "$232";
+		}
+
+		function mgfpCuautla(){
+			inscripcion = "$1,845";
+			colegiatura = "$2,112";
+			tramites = "$232";
+		}
+
+		function mdCuautla(){
+			inscripcion = "$1,780";
+			colegiatura = "$1,917";
+			tramites = "$232";
+		}
+
+		function epCuautla(){
+			inscripcion = "$1,773";
+			colegiatura = "$2,274";
+			tramites = "$232";
+		}
+
+		function manCuautla(){
+			inscripcion = "$1,845";
+			colegiatura = "$2,112";
+			tramites = "$232";
+		}
+	/*##### F I N   C A M P U S   C U A U T L A ######*/
 
 
 
@@ -439,8 +651,8 @@ $(document).ready(function(){
 	var bachVentas = "<option id='5' value='5'>Bachillerato Tecnológico en Ventas</option>";
 
 	///////Preparatoria////////////////////
-	var prepa = "<option id='6' value='6'>Preparatoria</option>";
-	var cch = "<option id='7' value='7'>Colegio de Ciencias y Humanidades</option>";
+	var prepa = "<option id='6' value='6'>Preparatoria - UNAM</option>";
+	var cch = "<option id='7' value='7'>Colegio de Ciencias y Humanidades - UNAM</option>";
 
 	//////Licenciaturas///////////////////
 	var licDerecho = "<option id='8' value='8'>Licenciatura en Derecho - UNAM</option>";
@@ -449,10 +661,10 @@ $(document).ready(function(){
 	var licInformatica = "<option id='11' value='11'>Licenciatura en Informática  - UNAM</option>";	
 	var licPedagogia = "<option id='12' value='12'>Licenciatura en Pedagogía  - UNAM</option>";
 	var licContaduria = "<option id='13' value='13'>Licenciatura en Contaduría y Gestión Financiera - SEP</option>";
-	var licGastronomia = "<option id='14' value='14'>Licenciatura en Gastronomía y Administración Operativa</option>";
+	var licGastronomia = "<option id='14' value='14'>Licenciatura en Gastronomía y Administración Operativa - UNAM</option>";
 	var licComunicacion = "<option id='15' value='15'>Licenciatura en Ciencias de la Comunicación y Periodismo - SEP</option>";	
 	var licMercadotecnia = "<option id='16' value='16'>Licenciatura en Mercadotecnia y Publicidad - SEP</option>";
-	var licTurismo = "<option id='17' value='17'>Licenciatura en Turismo</option>";
+	var licTurismo = "<option id='17' value='17'>Licenciatura en Turismo - UNAM</option>";
 
 	/////Maestrías///////////////////////
 	var man = "<option id='18' value='18'>Maestría en Administración de Negocios</option>";
@@ -467,9 +679,11 @@ $(document).ready(function(){
 	var doctorado = "<option id='25' value='25'>Doctorado en Educación</option>";
 
 
-	////SEP//////////////////////////////
+	////SEP/////////////////////////////
 	var licDerechoSep = "<option id='26' value='26'>Licenciatura en Derecho - SEP</option>";
 
+	//// Especialidad en publicidad ////////////////////////////////
+	var ep = "<option id='27' value='27'>Especialidad en Publicidad</option>";
 
 
 
@@ -485,12 +699,8 @@ $(document).ready(function(){
 	*/
 	/*Botón campus sur*/
 	$("#btn-sur").on("click", function(){
-		vaciarPlanEducativo();
-		vaciarNivelEducativo();
-		ocularCostos();
-		campusSeleccionado = 1;
-		removerClasesBotones();
-		asignarClasesBotones();		
+		preparacionCalculadora();	
+		campusSeleccionado = 1;	
 		$("#btn-sur").addClass("btn btn-primary");
 		$("#nivel-educativo").append("<option id='2' value='2'>Medio superior</option>");
 		$("#nivel-educativo").append("<option id='3' value='3'>Licenciaturas</option>");
@@ -499,12 +709,8 @@ $(document).ready(function(){
 
 	/*Botón campus roma*/
 	$("#btn-roma").on("click", function(){
-		vaciarPlanEducativo();
-		vaciarNivelEducativo();
-		ocularCostos();
+		preparacionCalculadora();
 		campusSeleccionado = 2;
-		removerClasesBotones();	
-		asignarClasesBotones();	
 		$("#btn-roma").addClass("btn btn-primary");
 		$("#nivel-educativo").append("<option id='3' value='3'>Licenciaturas</option>");
 		$("#nivel-educativo").append("<option id='4' value='4'>Posgrados</option>");
@@ -512,7 +718,13 @@ $(document).ready(function(){
 
 	/*Botón campus Cuautla*/
 	$("#btn-cuau").on("click", function(){
-
+		preparacionCalculadora();
+		campusSeleccionado = 3;
+		$("#btn-cuau").addClass("btn btn-primary");
+		$("#nivel-educativo").append("<option id='1' value='1'>Básica</option>");
+		$("#nivel-educativo").append("<option id='2' value='2'>Medio superior</option>");
+		$("#nivel-educativo").append("<option id='3' value='3'>Licenciaturas</option>");
+		$("#nivel-educativo").append("<option id='4' value='4'>Posgrados</option>");
 	});
 
 	/*Botón campus Cuernavaca*/
@@ -622,6 +834,14 @@ $(document).ready(function(){
 		$("#sua").hide("slow");
 	}
 
+	function preparacionCalculadora(){
+		vaciarPlanEducativo();
+		vaciarNivelEducativo();
+		ocularCostos();		
+		removerClasesBotones();	
+		asignarClasesBotones();
+	}
+
 
 
 
@@ -714,6 +934,39 @@ $(document).ready(function(){
 		$("#plan-educativo").append(mcd);
 	}
 
+	function llenarComboBasicaCuautla(){
+		$("#plan-educativo").append(secundaria);
+	}
+
+	function llenarComboMedioSuperiorCuautla(){
+		$("#plan-educativo").append(prepa);
+		$("#plan-educativo").append(bachComunicacion);
+		$("#plan-educativo").append(bachInformatica);
+		$("#plan-educativo").append(bachTurismo);
+		$("#plan-educativo").append(bachVentas);
+	}
+
+	function llenarComboSuperiorCuautla(){
+		$("#plan-educativo").append(licComunicacion);
+		$("#plan-educativo").append(licContaduria);
+		$("#plan-educativo").append(licMercadotecnia);
+		$("#plan-educativo").append(licGastronomia);
+		$("#plan-educativo").append(licTurismo);
+		$("#plan-educativo").append(licPedagogia);
+		$("#plan-educativo").append(licDerechoSep);
+		$("#plan-educativo").append(licPsicologia);
+	}
+
+	function llenarComboPosgradosCuautla(){
+		$("#plan-educativo").append(mcd);
+		$("#plan-educativo").append(madm);
+		$("#plan-educativo").append(mdpeja);
+		$("#plan-educativo").append(mgfp);
+		$("#plan-educativo").append(md);
+		$("#plan-educativo").append(ep);
+		$("#plan-educativo").append(man);
+	}
+
 
 
 
@@ -749,197 +1002,18 @@ $(document).ready(function(){
 
 			///SUR
 			case 1:
-				nivelSeleccionado *=1;
-				if(comboOnFocus == 1){
-					switch (nivelSeleccionado){
-						case 2:							
-							llenarComboMedioSuperiorSUR();
-							break;
-
-						case 3:
-							llenarComboSuperiorSUR();
-							break;
-
-						case 4:
-							llenarComboPosgradosSUR();
-							break;
-
-						default:						
-					}
-				}
-				if(comboOnFocus == 2){					
-					modalidad = $('input:radio[name=modalidad]:checked').val();		
-					modalidad *= 1;
-					switch (planEducativo){
-						case 6:
-							ocultarLabelSUA();
-							preparatoriaSur();
-							break;
-
-						case 7:
-							ocultarLabelVespetino();
-							ocultarLabelSUA();
-							cchSur();
-							break;
-
-						case 9:
-							licAdministracionSur();
-							break;
-
-						case 11:
-							ocultarLabelSUA();
-							licInformaticaSur();
-							break;
-
-						case 8:
-							licDerechoSur();
-							break;
-
-						case 10:
-							licPsicologiaSur();
-							break;
-
-						case 12:
-							ocultarLabelSUA();
-							licPedagogiaSur();
-							break;
-
-						case 15:
-							ocultarLabelSUA();
-							licComunicacionSur();
-							break;
-
-						case 13:
-							ocultarLabelSUA();
-							licContaduriaSur();
-							break;
-
-						case 16:
-							ocultarLabelSUA();
-							licMercadotecniaSur();
-							break;						
-
-						case 18:
-							$("#modalidades").hide();
-							MANSur();
-							break;
-
-						case 22:
-							$("#modalidades").hide();
-							MDSur();
-							break;
-
-						case 20:
-							$("#modalidades").hide();
-							MCDSur();
-							break;
-
-						case 19:
-							$("#modalidades").hide();
-							MADMSur();
-							break;						
-
-						case 25:
-							$("#modalidades").hide();
-							DoctoradoSur();
-							break;
-					}
-					pintarDatos();
-				}
-				break;
-
-				
+				controladorSur();
+				break;				
 
 			///ROMA	
 			case 2:
-				nivelSeleccionado *=1;
-				if(comboOnFocus == 1){
-					switch (nivelSeleccionado){
-
-						case 3:
-							llenarComboSuperiorROMA();
-							break;
-
-						case 4:
-							llenarComboPosgradosROMA();
-							break;
-
-						default:						
-					}
-				}
-				if(comboOnFocus == 2){					
-					modalidad = $('input:radio[name=modalidad]:checked').val();		
-					modalidad *= 1;
-					switch (planEducativo){
-						case 9:							
-							licAdministracionRoma();
-							break;
-
-						case 11:							
-							ocultarLabelSUA();
-							licInformaticaRoma();
-							break;
-
-						case 8:
-							ocultarLabelSUA();
-							ocultarLabelVespetino();
-							ocultarLabelMatutino();
-							licDerechoRoma();
-							break;
-
-						case 15:
-							ocultarLabelSUA();
-							licComunicacionRoma();
-							break;
-
-						case 13:
-							ocultarLabelSUA();
-							licContaduriaRoma();
-							break;
-
-						case 26:
-							ocultarLabelSUA();
-							licDerechoSepRoma();
-							break;
-
-						case 16:
-							ocultarLabelSUA();
-							licMercadotecniaRoma();
-							break;
-
-						case 18:
-							$("#modalidades").hide();
-							MANRoma();
-							break;
-
-						case 22:
-							$("#modalidades").hide();
-							MDRoma();							
-							break;
-
-						case 21:
-							$("#modalidades").hide();
-							MDPEJARoma();
-							break;						
-
-						case 19:
-							$("#modalidades").hide();
-							MADMRoma();
-							break;						
-
-						case 20:
-							$("#modalidades").hide();
-							MCDRoma();
-							break;						
-					}
-					pintarDatos();
-				}
+				controladorRoma();
 				break;
 
 
 			//CUAUTLA
 			case 3:
-				alert("Cuautla");
+				controladorCuautla();
 				break;
 
 
@@ -984,5 +1058,341 @@ $(document).ready(function(){
 		$("#colegiatura").html(colegiatura);
 		$("#tramites").html(tramites);
 		$("#costos").show("slow");
+	}
+
+
+
+
+	/*
+	###########################################
+	###########################################
+	#C O N T R O L A D O R   C A M P U S ######
+	###########################################
+	###########################################
+	*/
+	function controladorSur(){
+		nivelSeleccionado *=1;
+		if(comboOnFocus == 1){
+			switch (nivelSeleccionado){
+				case 2:							
+					llenarComboMedioSuperiorSUR();
+					break;
+
+				case 3:
+					llenarComboSuperiorSUR();
+					break;
+
+				case 4:
+					llenarComboPosgradosSUR();
+					break;
+
+				default:						
+			}
+		}
+		if(comboOnFocus == 2){					
+			modalidad = $('input:radio[name=modalidad]:checked').val();		
+			modalidad *= 1;
+			switch (planEducativo){
+				case 6:
+					ocultarLabelSUA();
+					preparatoriaSur();
+					break;
+
+				case 7:
+					ocultarLabelVespetino();
+					ocultarLabelSUA();
+					cchSur();
+					break;
+
+				case 9:
+					licAdministracionSur();
+					break;
+
+				case 11:
+					ocultarLabelSUA();
+					licInformaticaSur();
+					break;
+
+				case 8:
+					licDerechoSur();
+					break;
+
+				case 10:
+					licPsicologiaSur();
+					break;
+
+				case 12:
+					ocultarLabelSUA();
+					licPedagogiaSur();
+					break;
+
+				case 15:
+					ocultarLabelSUA();
+					licComunicacionSur();
+					break;
+
+				case 13:
+					ocultarLabelSUA();
+					licContaduriaSur();
+					break;
+
+				case 16:
+					ocultarLabelSUA();
+					licMercadotecniaSur();
+					break;						
+
+				case 18:
+					$("#modalidades").hide();
+					MANSur();
+					break;
+
+				case 22:
+					$("#modalidades").hide();
+					MDSur();
+					break;
+
+				case 20:
+					$("#modalidades").hide();
+					MCDSur();
+					break;
+
+				case 19:
+					$("#modalidades").hide();
+					MADMSur();
+					break;						
+
+				case 25:
+					$("#modalidades").hide();
+					DoctoradoSur();
+					break;
+			}
+			pintarDatos();
+		}
+	}
+
+
+
+	function controladorRoma(){
+		nivelSeleccionado *=1;
+		if(comboOnFocus == 1){
+			switch (nivelSeleccionado){
+
+				case 3:
+					llenarComboSuperiorROMA();
+					break;
+
+				case 4:
+					llenarComboPosgradosROMA();
+					break;
+
+				default:						
+			}
+		}
+		if(comboOnFocus == 2){					
+			modalidad = $('input:radio[name=modalidad]:checked').val();		
+			modalidad *= 1;
+			switch (planEducativo){
+				case 9:							
+					licAdministracionRoma();
+					break;
+
+				case 11:							
+					ocultarLabelSUA();
+					licInformaticaRoma();
+					break;
+
+				case 8:
+					ocultarLabelSUA();
+					ocultarLabelVespetino();
+					ocultarLabelMatutino();
+					licDerechoRoma();
+					break;
+
+				case 15:
+					ocultarLabelSUA();
+					licComunicacionRoma();
+					break;
+
+				case 13:
+					ocultarLabelSUA();
+					licContaduriaRoma();
+					break;
+
+				case 26:
+					ocultarLabelSUA();
+					licDerechoSepRoma();
+					break;
+
+				case 16:
+					ocultarLabelSUA();
+					licMercadotecniaRoma();
+					break;
+
+				case 18:
+					$("#modalidades").hide();
+					MANRoma();
+					break;
+
+				case 22:
+					$("#modalidades").hide();
+					MDRoma();							
+					break;
+
+				case 21:
+					$("#modalidades").hide();
+					MDPEJARoma();
+					break;						
+
+				case 19:
+					$("#modalidades").hide();
+					MADMRoma();
+					break;						
+
+				case 20:
+					$("#modalidades").hide();
+					MCDRoma();
+					break;						
+			}
+			pintarDatos();
+		}
+	}
+
+
+	function controladorCuautla(){
+		nivelSeleccionado *=1;
+		if(comboOnFocus == 1){
+			switch (nivelSeleccionado){
+
+				case 1:
+					llenarComboBasicaCuautla();
+					break;
+
+				case 2:
+					llenarComboMedioSuperiorCuautla();
+					break;
+
+				case 3:
+					llenarComboSuperiorCuautla();
+					break;
+
+				case 4:
+					llenarComboPosgradosCuautla();
+					break;
+
+				default:
+				break;						
+			}
+		}
+		if(comboOnFocus == 2){					
+			modalidad = $('input:radio[name=modalidad]:checked').val();		
+			modalidad *= 1;
+			switch (planEducativo){
+				case 1:
+					$("#modalidades").hide();							
+					secundariaCuautla();
+					break;
+
+				case 6:	
+					$("#modalidades").hide();							
+					prepaCuautla();
+					break;
+
+				case 2:
+					$("#modalidades").hide();
+					bachComunicacionCuautla();					
+					break;
+
+				case 3:
+					$("#modalidades").hide();
+					bachInformaticaCuautla();
+					break;
+
+				case 4:
+					$("#modalidades").hide();
+					bachTurismoCuautla	();
+					break;
+
+				case 5:
+					$("#modalidades").hide();
+					bachVentasCuautla();
+					break;
+
+				case 15:
+					ocultarLabelSUA();
+					licComunicacionCuautla();
+					break;
+
+				case 13:					
+					ocultarLabelSUA();
+					licContaduriaCuautla();
+					break;
+
+				case 16:
+					ocultarLabelSUA();
+					licMercadotecniaCuautla();
+					break;
+
+				case 14:
+					ocultarLabelSUA();
+					licGastronomiaCuautla();
+					break;						
+
+				case 17:
+					ocultarLabelSUA();
+					licTurismoCuautla();
+					break;						
+
+				case 12:
+					ocultarLabelSUA();
+					licPedagogiaCuautla();
+					break;	
+
+				case 26:
+					ocultarLabelSUA();
+					licDerechoSepCuautla();
+					break;	
+
+				case 10:
+					ocultarLabelSUA();
+					licPsicologiaCuautla();
+					break;
+
+				case 20:
+					$("#modalidades").hide();
+					mcdCuautla();
+					break;	
+
+				case 19:
+					$("#modalidades").hide();
+					madmCuautla();
+					break;	
+
+				case 21:
+					$("#modalidades").hide();
+					mdpejaCuautla();
+					break;	
+
+				case 23:
+					$("#modalidades").hide();
+					mgfpCuautla();
+					break;	
+
+				case 22:
+					$("#modalidades").hide();
+					mdCuautla();
+					break;
+
+				case 27:
+					$("#modalidades").hide();
+					epCuautla();
+					break;	
+
+				case 18:
+					$("#modalidades").hide();
+					manCuautla();
+					break;						
+			}
+			pintarDatos();
+		}
 	}
 });
