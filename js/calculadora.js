@@ -602,6 +602,260 @@ $(document).ready(function(){
 
 
 
+	/*############## C A M P U S   C U E R N A V A C A ######*/
+		function prepaCuernavaca(){
+			switch (modalidad){
+				case 1://Matutino
+					inscripcion = "$5,198";
+					colegiatura = "$2,896";
+					tramites = "$1,653";				
+					break;				
+			}
+		}
+
+		function bachComunicacionCuernavaca(){
+			inscripcion = "$3,455";
+			colegiatura = "$3,042";
+			tramites = "$232";
+			console.log("JAMON");
+		}
+
+		function bachInformaticaCuernavaca(){
+			inscripcion = "$3,455";
+			colegiatura = "$3,042";
+			tramites = "$232";
+		}
+
+		function bachTurismoCuernavaca(){
+			inscripcion = "$3,455";
+			colegiatura = "$3,042";
+			tramites = "$232";
+		}
+
+		function bachVentasCuernavaca(){
+			inscripcion = "$3,455";
+			colegiatura = "$3,042";
+			tramites = "$232";
+		}
+
+		function licAdministracionCuernavaca(){
+			switch (modalidad){
+				case 1://Matutino
+					inscripcion = "$3,287";
+					colegiatura = "$2,749";
+					tramites = "$1,102";				
+					break;
+
+				case 2://Vespertino
+					inscripcion = "$1,563";
+					colegiatura = "$2,610";
+					tramites = "$1,044";
+					break;
+			}
+		}
+
+		function licInformaticaCuernavaca(){
+			switch (modalidad){
+				case 1://Matutino
+					inscripcion = "$";
+					colegiatura = "$";
+					tramites = "$";				
+					break;
+
+				case 2://Vespertino
+					inscripcion = "$";
+					colegiatura = "$";
+					tramites = "$";
+					break;
+			}
+		}
+
+		function licDerechoCuernavaca(){
+			switch (modalidad){
+				case 1://Matutino
+					inscripcion = "$2,747";
+					colegiatura = "$2,573";
+					tramites = "$1044";				
+					break;
+
+				case 2://Vespertino
+					inscripcion = "$1,563";
+					colegiatura = "$2,347";
+					tramites = "$986";
+					break;
+
+				case 3://SUA
+					inscripcion = "$2,633";
+					colegiatura = "$2,271";
+					tramites = "$928";
+					break;
+			}
+		}
+
+		function licPsicologiaCuernavaca(){
+			switch (modalidad){
+				case 1://Matutino
+					inscripcion = "$3,396";
+					colegiatura = "$2,733";
+					tramites = "$1102";				
+					break;
+
+				case 2://Vespertino
+					inscripcion = "$1,566";
+					colegiatura = "$2,580";
+					tramites = "$1044";
+					break;
+
+				case 3://SUA
+					inscripcion = "$1,869";
+					colegiatura = "$2,586";
+					tramites = "$1102";
+					break;
+			}
+		}
+
+		function licPedagogiaCuernavaca(){
+			switch (modalidad){
+				case 1://Matutino
+					inscripcion = "$2,858";
+					colegiatura = "$2,115";
+					tramites = "$232";				
+					break;
+
+				case 2://Vespertino
+					inscripcion = "$3,015";
+					colegiatura = "$2,231";
+					tramites = "$232";
+					break;				
+			}
+		}
+
+		function licComunicacionCuernavaca(){
+			switch (modalidad){
+				case 1://Matutino
+					inscripcion = "$2,298";
+					colegiatura = "$3,564";
+					tramites = "$232";				
+					break;
+
+				case 2://Vespertino
+					inscripcion = "$1,610";
+					colegiatura = "$2,356";
+					tramites = "$232";
+					break;				
+			}
+		}
+
+		function licContaduriaCuernavaca(){
+			switch (modalidad){
+				case 1://Matutino
+					inscripcion = "$2,660";
+					colegiatura = "$2,654";
+					tramites = "$232";				
+					break;
+
+				case 2://Vespertino
+					inscripcion = "$1,577";
+					colegiatura = "$2,573";
+					tramites = "$232";
+					break;				
+			}
+		}
+
+		function licTurismoCuernavaca(){
+			switch (modalidad){
+				case 1://Matutino
+					inscripcion = "$3,470";
+					colegiatura = "$2,975";
+					tramites = "$232";				
+					break;
+
+				case 2://Vespertino
+					inscripcion = "$1,567";
+					colegiatura = "$2,573";
+					tramites = "$232";
+					break;				
+			}
+		}
+
+		function licGastronomiaCuernavaca(){
+			switch (modalidad){
+				case 1://Matutino
+					inscripcion = "$3,659";
+					colegiatura = "$3,222";
+					tramites = "$232";				
+					break;
+
+				case 2://Vespertino
+					inscripcion = "$1,566";
+					colegiatura = "$2,543";
+					tramites = "$250";
+					break;				
+			}
+		}
+
+		function licMercadotecniaCuernavaca(){
+			switch (modalidad){
+				case 1://Matutino
+					inscripcion = "$2,787";
+					colegiatura = "$2,898";
+					tramites = "$232";				
+					break;
+
+				case 2://Vespertino
+					inscripcion = "$1,561";
+					colegiatura = "$2,314";
+					tramites = "$232";
+					break;				
+			}
+		}
+
+		function manCuernavaca(){
+			inscripcion = "$2,994";
+			colegiatura = "$2,251";
+			tramites = "$232";
+		}
+
+		function mrhCuernavaca(){
+			inscripcion = "$2,994";
+			colegiatura = "$2,251";
+			tramites = "$232";
+		}
+
+		function mgfpCuernavaca(){
+			inscripcion = "$2,994";
+			colegiatura = "$2,251";
+			tramites = "$232";
+		}
+
+		function mdCuernavaca(){
+			inscripcion = "$1,761";
+			colegiatura = "$1,903";
+			tramites = "$232";
+		}
+
+		function mcdCuernavaca(){
+			inscripcion = "$5,317";
+			colegiatura = "$3,844";
+			tramites = "$232";
+		}
+
+		function madmCuernavaca(){
+			inscripcion = "$5,317";
+			colegiatura = "$3,844";
+			tramites = "$232";
+		}
+
+		function epCuernavaca(){
+			inscripcion = "$1,765";
+			colegiatura = "$2,431";
+			tramites = "$232";
+		}
+	/*############## F I N  C A M P U S   C U E R N A V A C A ######*/
+
+
+
+
 
 
 
@@ -729,10 +983,22 @@ $(document).ready(function(){
 
 	/*Botón campus Cuernavaca*/
 	$("#btn-cuer").on("click", function(){
-
+		preparacionCalculadora();
+		campusSeleccionado = 4;
+		$("#btn-cuer").addClass("btn btn-primary");
+		$("#nivel-educativo").append("<option id='2' value='2'>Medio superior</option>");
+		$("#nivel-educativo").append("<option id='3' value='3'>Licenciaturas</option>");
+		$("#nivel-educativo").append("<option id='4' value='4'>Posgrados</option>");
 	});
 
 
+
+	/*##############################
+	################################
+	######### C O M B O S  #########
+	################################
+	################################
+	*/
 	/*Combo nivel educativo*/
 	$("#nivel-educativo").on("change",function(){
 		vaciarPlanEducativo();
@@ -750,7 +1016,8 @@ $(document).ready(function(){
 
 	//Combo plan educativo
 	$("#plan-educativo").on("change", function(){
-		$("#sua-label").hide("slow");		
+		$("#sua-label").hide("slow");	
+		$("#mat-label").hide("slow");		
 		$("#modalidades").hide("slow");
 		$("#costos").hide("slow");		
 		vaciarValores();
@@ -784,17 +1051,20 @@ $(document).ready(function(){
 		$("#nivel-educativo").html("");
 		$("#nivel-educativo").append("<option id='0' value='0'>selecciona una opción</option>");
 	}
+
 	/*función vaciar combo plan-educativo*/
 	function vaciarPlanEducativo(){
 		$("#plan-educativo").html("");
 		$("#plan-educativo").append("<option id='0' value='0'>selecciona una opción</option>");
 	}
+
 	/*Eliminar valores*/
 	function vaciarValores(){
 		inscripcion = -1;
 		colegiatura = -1;
 		tramites = -1;
 	}
+
 	function removerClasesBotones(){
 		$("#btn-sur").removeClass();
 		$("#btn-roma").removeClass();
@@ -967,6 +1237,37 @@ $(document).ready(function(){
 		$("#plan-educativo").append(man);
 	}
 
+	function llenarComboMedioSuperiorCuernavaca(){
+		$("#plan-educativo").append(prepa);
+		$("#plan-educativo").append(bachComunicacion);
+		$("#plan-educativo").append(bachInformatica);
+		$("#plan-educativo").append(bachTurismo);
+		$("#plan-educativo").append(bachVentas);
+	}
+
+	function llenarComboSuperiorCuernavaca(){
+		$("#plan-educativo").append(licAdministracion);
+		$("#plan-educativo").append(licInformatica);
+		$("#plan-educativo").append(licDerecho);
+		$("#plan-educativo").append(licPsicologia);
+		$("#plan-educativo").append(licPedagogia);
+		$("#plan-educativo").append(licComunicacion);
+		$("#plan-educativo").append(licContaduria);
+		$("#plan-educativo").append(licTurismo);
+		$("#plan-educativo").append(licGastronomia);
+		$("#plan-educativo").append(licMercadotecnia);		
+	}
+
+	function llenarComboPosgradosCuernavaca(){
+		$("#plan-educativo").append(man);
+		$("#plan-educativo").append(mrh);
+		$("#plan-educativo").append(mgfp);
+		$("#plan-educativo").append(md);
+		$("#plan-educativo").append(mcd);
+		$("#plan-educativo").append(madm);
+		$("#plan-educativo").append(ep);
+	}
+
 
 
 
@@ -1019,7 +1320,7 @@ $(document).ready(function(){
 
 			//CUERNAVACA
 			case 4:
-				alert("Cuernavaca");
+				controladorCuernavaca();
 				break;
 		}
 		logueo();
@@ -1188,7 +1489,7 @@ $(document).ready(function(){
 				default:						
 			}
 		}
-		if(comboOnFocus == 2){					
+		if(comboOnFocus == 2){
 			modalidad = $('input:radio[name=modalidad]:checked').val();		
 			modalidad *= 1;
 			switch (planEducativo){
@@ -1395,4 +1696,159 @@ $(document).ready(function(){
 			pintarDatos();
 		}
 	}
+
+
+	function controladorCuernavaca(){
+		nivelSeleccionado *=1;
+		if(comboOnFocus == 1){
+			switch (nivelSeleccionado){
+
+				case 2:
+					llenarComboMedioSuperiorCuernavaca();
+					break;
+
+				case 3:
+					llenarComboSuperiorCuernavaca();
+					break;
+
+				case 4:
+					llenarComboPosgradosCuernavaca();
+					break;
+
+				default:
+				break;						
+			}
+		}
+		if(comboOnFocus == 2){					
+			modalidad = $('input:radio[name=modalidad]:checked').val();		
+			modalidad *= 1;
+			switch (planEducativo){
+
+				case 6:	
+					ocultarLabelSUA();
+					ocultarLabelVespetino();
+					ocultarLabelMatutino();
+					$("#mat-label").show("slow");
+					prepaCuernavaca();
+					break;
+
+				case 2:					
+					ocultarLabelSUA();
+					ocultarLabelVespetino();
+					ocultarLabelMatutino();
+					$("#mat-label").show("slow");
+					bachComunicacionCuernavaca();					
+					break;
+
+				case 3:
+					ocultarLabelSUA();
+					ocultarLabelVespetino();
+					ocultarLabelMatutino();
+					$("#mat-label").show("slow");
+					bachInformaticaCuernavaca();
+					break;
+
+				case 4:
+					ocultarLabelSUA();
+					ocultarLabelVespetino();
+					ocultarLabelMatutino();
+					$("#mat-label").show("slow");
+					bachTurismoCuernavaca();
+					break;
+
+				case 5:
+					ocultarLabelSUA();
+					ocultarLabelVespetino();
+					ocultarLabelMatutino();
+					$("#mat-label").show("slow"); 
+					bachVentasCuernavaca();
+					break;
+
+				case 9:
+					ocultarLabelSUA();
+					licAdministracionCuernavaca();
+					break;
+
+				case 11:					
+					ocultarLabelSUA();
+					licInformaticaCuernavaca();
+					break;
+
+				case 8:					
+					licDerechoCuernavaca();
+					break;
+
+				case 10:					
+					licPsicologiaCuernavaca();
+					break;						
+
+				case 12:
+					ocultarLabelSUA();
+					licPedagogiaCuernavaca();
+					break;						
+
+				case 15:
+					ocultarLabelSUA();
+					licComunicacionCuernavaca();
+					break;	
+
+				case 13:
+					ocultarLabelSUA();
+					licContaduriaCuernavaca();
+					break;	
+
+				case 17:
+					ocultarLabelSUA();
+					licTurismoCuernavaca();
+					break;
+
+				case 14:
+					ocultarLabelSUA();
+					licGastronomiaCuernavaca();
+					break;	
+
+				case 16:
+					ocultarLabelSUA();
+					licMercadotecniaCuernavaca();
+					break;
+
+				case 18:
+					$("#modalidades").hide();
+					manCuernavaca();
+					break;	
+
+				case 24:
+					$("#modalidades").hide();
+					mrhCuernavaca();
+					break;
+
+				case 23:
+					$("#modalidades").hide();
+					mgfpCuernavaca();
+					break;
+
+				case 22:
+					$("#modalidades").hide();
+					mdCuernavaca();
+					break;
+
+				case 20:
+					$("#modalidades").hide();
+					mcdCuernavaca();
+					break;
+
+				case 19:
+					$("#modalidades").hide();
+					madmCuernavaca();
+					break;
+
+				case 27:
+					$("#modalidades").hide();
+					epCuernavaca();
+					break;						
+			}
+			pintarDatos();
+		}
+	}
+
 });
