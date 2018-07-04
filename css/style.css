@@ -2045,10 +2045,14 @@ img.author-box-image {
    CONTACT
    ========================================================================== */
 
-#contactform input#name,
+#contactform input#nombre,
+
 #contactform input#email,
-#contactform input#website,
-#contactform textarea#comments {
+#contactform input#asunto,
+#contactform select#campus,
+#contactform select#plan-estudios,
+#contactform select#modalidad-form,
+#contactform textarea#mensaje-txt {
     width: 100%;
     padding: 10px 5px;
     margin-bottom: 15px;
@@ -2056,6 +2060,30 @@ img.author-box-image {
     color: #202020;
     border: none;
 }
+
+#contactform input#telefono{
+    float: left;
+    width: 50%;
+    padding: 10px 5px;
+    margin-bottom: 15px;    
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #202020;
+    border: none;
+}
+
+#contactform input#celular{
+    margin-left: 2px;
+    loat: left;
+    width: 49%;
+    padding: 10px 5px;
+    margin-bottom: 15px;    
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #202020;
+    border: none;
+}
+
+
+
 
 #contactform textarea#comments {
     min-height: 150px;
@@ -2359,4 +2387,10 @@ img.author-box-image {
 
 .fizquierda{
     float: left;
+}
+
+.error-form{
+    display: none;
+    padding: 1px; 
+    margin: 1px;
 }
