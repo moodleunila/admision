@@ -899,10 +899,10 @@ $(document).ready(function(){
 	var secundaria = "<option id='1' value='1'>Secundaria</option>";
 
 	///////Bachilleratos tecnológicos///////
-	var bachComunicacion = "<option id='2' value='2'>Bachillerato Tecnológico en Comunicación</option>";
-	var bachInformatica = "<option id='3' value='3'>Bachillerato Tecnológico en Informática</option>";
-	var bachTurismo = "<option id='4' value='4'>Bachillerato Tecnológico en Turismo</option>";
-	var bachVentas = "<option id='5' value='5'>Bachillerato Tecnológico en Ventas</option>";
+	var bachComunicacion = "<option id='2' value='2'>Bachillerato Tecnológico en Comunicación - DGTI</option>";
+	var bachInformatica = "<option id='3' value='3'>Bachillerato Tecnológico en Informática- DGTI</option>";
+	var bachTurismo = "<option id='4' value='4'>Bachillerato Tecnológico en Turismo- DGTI</option>";
+	var bachVentas = "<option id='5' value='5'>Bachillerato Tecnológico en Ventas- DGTI</option>";
 
 	///////Preparatoria////////////////////
 	var prepa = "<option id='6' value='6'>Preparatoria - UNAM</option>";
@@ -921,23 +921,23 @@ $(document).ready(function(){
 	var licTurismo = "<option id='17' value='17'>Licenciatura en Turismo - UNAM</option>";
 
 	/////Maestrías///////////////////////
-	var man = "<option id='18' value='18'>Maestría en Administración de Negocios</option>";
-	var madm = "<option id='19' value='19'>Maestría en Alta Dirección en Mercadotecnia</option>";
-	var mcd = "<option id='20' value='20'>Maestría en Comunicación Digital</option>";
-	var mdpeja = "<option id='21' value='21'>Maestría en Derecho Penal con Énfasis en Juicios Adversariales</option>";	
-	var md = "<option id='22' value='22'>Maestría en Docencia</option>";
-	var mgfp = "<option id='23' value='23'>Maestría en Gestión y Finanzas Públicas</option>";
-	var mrh = "<option id='24' value='24'>Maestría en Recursos Humanos</option>";
+	var man = "<option id='18' value='18'>Maestría en Administración de Negocios - SEP</option>";
+	var madm = "<option id='19' value='19'>Maestría en Alta Dirección en Mercadotecnia - SEP</option>";
+	var mcd = "<option id='20' value='20'>Maestría en Comunicación Digital - SEP</option>";
+	var mdpeja = "<option id='21' value='21'>Maestría en Derecho Penal con Énfasis en Juicios Adversariales - SEP</option>";	
+	var md = "<option id='22' value='22'>Maestría en Docencia - SEP</option>";
+	var mgfp = "<option id='23' value='23'>Maestría en Gestión y Finanzas Públicas - SEP</option>";
+	var mrh = "<option id='24' value='24'>Maestría en Recursos Humanos - SEP</option>";
 
 	////Doctorado///////////////////////
-	var doctorado = "<option id='25' value='25'>Doctorado en Educación</option>";
+	var doctorado = "<option id='25' value='25'>Doctorado en Educación - SEP</option>";
 
 
 	////SEP/////////////////////////////
 	var licDerechoSep = "<option id='26' value='26'>Licenciatura en Derecho - SEP</option>";
 
 	//// Especialidad en publicidad ////////////////////////////////
-	var ep = "<option id='27' value='27'>Especialidad en Publicidad</option>";
+	var ep = "<option id='27' value='27'>Especialidad en Publicidad - SEP</option>";
 
 
 

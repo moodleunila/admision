@@ -18,6 +18,7 @@
     <script src="js/respond.min.js"></script>
     <![endif]-->         
     <link rel="icon" type="image/png" href="images/unila/logo.png">
+    <script type="text/javascript" src="js/formularios.js"></script>
 
     <script type="text/javascript">
     jQuery(document).ready(function($){
@@ -57,7 +58,7 @@
                     <span class="sr-only">Toggle navigation</span>
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="http://www.unila.edu.mx"><img src="images/unila/logo_blanco.png" width="35%"></a>
+                <a class="navbar-brand" href="./"><img src="images/unila/logo_blanco.png" width="35%"></a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">                    
@@ -226,20 +227,42 @@
                         <a href="http://www.unila.edu.mx/unila-campus-cuautla" class="texto-blanco negritas"><img src="images/unila/logo_campus_cuautla_s_d.png" width="%"></a>
                     </div><!--/.col-md-3-->
                     <div class="col-md-6 col-sm-6">                        
-                        <div id="message"><h3 class="main-title texto-dorado centrado">¡Contáctanos!</h3></div>
-                        <form method="post" action="sendemail.php" id="contactform">
-                            <input style="background-color: #e9ecef;" type="text" name="name" id="name" placeholder="Nombre" />
-                            <input style="background-color: #e9ecef;" type="text" name="email" id="email" placeholder="Email" />
-                            <input style="background-color: #e9ecef;" type="text" name="website" id="website" placeholder="Asunto" />
-                            <select name="campus" id="campus" class="form-control" style="background-color: #e9ecef;" style="width: 100%;">
-                                <option id="0" value="0">Campus</option>                                
-                                <option id="3" value="3">Cuautla</option>
-                                <option id="4" value="4">Cuernavaca</option>
+                        <div id="message"><h3 class="main-title texto-dorado centrado">No lo pienses más, ¡Contáctanos!</h3></div>
+                        <div class="alert alert-success" style="display: none;" id="success-form">
+                            La información ha sido enviada correctamente, en menos de 24 Hrs. tendrá respuesta a su petición, ¡Gracias!
+                        </div>
+                        <div class="alert alert-danger error-form" id="danger-form">
+                            Ha ocurrido un problema, verifique sus datos por favor.
+                        </div>
+                        <div id="contactform">                        
+                            <div class="alert alert-danger error-form" id="err-nombre" style="padding: 1px; margin: 1px;">Por favor coloque su nombre</div>
+                            <input type="text" name="nombre" id="nombre" placeholder="Nombre" style="background-color: #e9ecef;"/>
+                            <div class="alert alert-danger error-form"  id="err-telefono">Por favor coloque por lo menos un teléfono de contacto (sólo números)</div>
+                            <input type="text" name="telefono" id="telefono" placeholder="Teléfono" style="background-color: #e9ecef;"/>                                
+                            <input type="text" name="celular" id="celular" placeholder="Celular" style="background-color: #e9ecef;"/>
+                            <div class="alert alert-danger error-form"  id="err-email">Por favor coloque su e-mail</div>
+                            <input type="text" name="email" id="email" placeholder="Email" style="background-color: #e9ecef;"/>                           
+                            <div class="alert alert-danger error-form"  id="err-campus">Por favor seleccione un campus</div>
+                            <select id="campus" name="campus" style="background-color: #e9ecef;">
+                                <option id="0" value="0">Seleccione campus</option>                            
+                                <option id="3" value="3">Cuautla</option>                                
+                                <option id="4" value="4">Cuernavaca</option>                                    
                             </select>
-                            <br>
-                            <textarea style="background-color: #e9ecef;" name="comments" id="comments" placeholder="Mensaje"></textarea>
-                            <input class="btn btn-outlined btn-primary" type="submit" name="submit" value="Enviar" />
-                        </form>
+                            <div class="alert alert-danger error-form"  id="err-modalidad">Por favor seleccione una modalidad</div>
+                            <select id="modalidad-form" name="modalidad-form" style="background-color: #e9ecef;">
+                                <option id="0" value="0">Seleccione modalidad</option>
+                                <option id="1a" value="1">Matutino</option>                            
+                            </select>
+
+                            <!--V A L O R   D E  C A M P U S -->
+                            <input type="hidden" name="plan-estudios" id="plan-estudios" value="0">   
+
+                            <div class="alert alert-danger error-form" id="err-asunto">Por favor coloque un asunto</div>
+                            <input type="text" name="asunto" id="asunto" placeholder="Asunto" style="background-color: #e9ecef;"/>                                
+                            <div class="alert alert-danger error-form" id="err-mensaje">Por favor coloque un menasje</div>
+                            <textarea name="mensaje-txt" id="mensaje-txt" placeholder="Mensaje" style="background-color: #e9ecef;"></textarea>
+                            <button class="btn btn-outlined btn-primary" name="enviar" id="enviar" >Enviar</button>
+                        </div>
                     </div><!-- col -->
                     
                 </div>
