@@ -1525,10 +1525,12 @@ img.author-box-image {
     height: auto;
 }
 
-.about-us-widget {
-    background-image: url(../images/world-map.png);
+/*.about-us-widget {
+    background-color: white;
+    background-image: url(../images/unila/fondo-50.png);
+    background-repeat: no-repeat;    
     background-size: contain;
-}
+}*/
 
 .widget-title {
     font-size: 18px;
@@ -2046,7 +2048,6 @@ img.author-box-image {
    ========================================================================== */
 
 #contactform input#nombre,
-
 #contactform input#email,
 #contactform input#asunto,
 #contactform select#campus,
@@ -2091,6 +2092,13 @@ img.author-box-image {
 
 #contact h3 {
     
+}
+
+#contact{
+    background-color: white !important;    
+    background-image: url(../images/unila/fondo-50.png);
+    background-repeat: no-repeat;
+    vertical-align: super;
 }
 
 #mapwrapper {
