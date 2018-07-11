@@ -2083,9 +2083,6 @@ img.author-box-image {
     border: none;
 }
 
-
-
-
 #contactform textarea#comments {
     min-height: 150px;
 }
@@ -2096,9 +2093,9 @@ img.author-box-image {
 
 #contact{
     background-color: white !important;    
-    background-image: url(../images/unila/fondo-50.png);
+    background-image: url(../images/unila/fondo:50.png);
+    height: 100%;
     background-repeat: no-repeat;
-    vertical-align: super;
 }
 
 #mapwrapper {
