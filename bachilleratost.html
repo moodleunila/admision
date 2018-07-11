@@ -27,25 +27,7 @@
             "images/unila/bachillerato/header-bt.png",
             "images/unila/bachillerato/header-bt1.png",
             "images/unila/bachillerato/header-bt2.png"             
-        ], {duration: 5000, fade: 500, centeredY: true });
-
-        /*$("#mapwrapper").gMap({ controls: false,
-            scrollwheel: false,
-            markers: [{     
-                latitude:19.33507,
-                longitude: -99.155282,
-            icon: { image: "images/marker.png",
-                iconsize: [44,44],
-                iconanchor: [12,46],
-                infowindowanchor: [12, 0] } }],
-            icon: { 
-                image: "images/marker.png", 
-                iconsize: [26, 46],
-                iconanchor: [12, 46],
-                infowindowanchor: [12, 0] },
-            latitude:19.33507,
-            longitude: -99.155282,
-            zoom: 17  });*/
+        ], {duration: 5000, fade: 500, centeredY: true });        
     });
     </script>
 </head><!--/head-->
@@ -74,7 +56,7 @@
                         <li><a href="#">Doctorado</a></li>
                     </ul>
                     </li>                                                
-                    <li><a href="calculadora.html" target="_blank">Calcula tu colegiatura</a></li>                                         
+                    <li><a href="calculadora.html" target="_blank">Calcula tu colegiatura en este sitio</a></li>                                         
                 </ul>
             </div>
         </div>
@@ -210,10 +192,7 @@
                     </ul>
                 </div>
             </section>
-    </div>
-
-    <div id="footer-wrapper">
-        <section id="contact">
+            <section id="contact">
             <div class="container about-us-widget">
                 <div class="row">
                     <div class="col-md-12 col-sm-12">
@@ -221,10 +200,36 @@
                     </div>
                 </div>
                 <div class="row">                
-                    <div class="col-md-6 col-sm-6">
-                        <h4 class="texto-blanco">Conoce todos los campus donde se imparten los bachilleratos</h4>
-                        <a href="http://www.unila.edu.mx/unila-campus-cuernavaca" class="texto-blanco negritas"><img src="images/unila/logo_campus_cuernavaca_s_d.png" width="%"></a><br>
-                        <a href="http://www.unila.edu.mx/unila-campus-cuautla" class="texto-blanco negritas"><img src="images/unila/logo_campus_cuautla_s_d.png" width="%"></a>
+                    <div class="col-md-6 col-sm-6 centrado">
+                        <div id="message"><h4 class="main-title texto-dorado centrado">Conoce los campus donde se imparten los bachilleratos tecnológicos<br></h4></div>
+                        <div class="col-md-6 col-sm-12 centrado">                        
+                            <div>
+                                <a href="http://www.unila.edu.mx/unila-campus-cuautla">                            
+                                    <div class="">
+                                        <div class="centrado">
+                                            <img class="" src="images/unila/cuautla.jpg" alt="" style="width: 100%;">
+                                        </div>
+                                        <div class="media-body">                                    
+                                            <span class="media-heading"><h2>Cuautla</h2></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>  
+                        </div><!--/.col-md-3--> 
+                        <div class="col-md-6 col-sm-12 centrado">                        
+                            <div>
+                                <a href="http://www.unila.edu.mx/unila-campus-cuernavaca">                            
+                                    <div class="">
+                                        <div class="centrado">
+                                            <img class="" src="images/unila/cuernavaca.jpg" alt="" style="width: 100%;">
+                                        </div>
+                                        <div class="media-body">                                    
+                                            <span class="media-heading"><h2>Cuernavaca</h2></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>  
+                        </div><!--/.col-md-3-->                                                           
                     </div><!--/.col-md-3-->
                     <div class="col-md-6 col-sm-6">                        
                         <div id="message"><h3 class="main-title texto-dorado centrado">No lo pienses más, ¡Contáctanos!</h3></div>
@@ -268,6 +273,9 @@
                 </div>
             </div>
         </section><!--/#bottom-->
+    </div>
+
+    <div id="footer-wrapper">        
 
         <footer id="footer" class="">
             <div class="container">
