@@ -8,6 +8,8 @@ $(document).ready(function(){
 	/*
 	/*###C A M P U S   S U R ############*/
 		function preparatoriaSur(){
+			periodo = "Anual";
+			inicio_clases = "13/08/2018";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$4,160";
@@ -27,6 +29,8 @@ $(document).ready(function(){
 		}
 
 		function cchSur(){
+			inicio_clases = "13/08/2018";
+			periodo = "Semestral";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$3,551";
@@ -40,6 +44,8 @@ $(document).ready(function(){
 		}
 
 		function licAdministracionSur(){
+			periodo = "Semestral";
+			inicio_clases = "13/08/2018";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$2,371";
@@ -65,6 +71,8 @@ $(document).ready(function(){
 		}
 
 		function licInformaticaSur(){
+			periodo = "Semestral";
+			inicio_clases = "13/08/2018";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$2,650";
@@ -84,6 +92,8 @@ $(document).ready(function(){
 		}
 
 		function licDerechoSur(){
+			periodo = "Semestral";
+			inicio_clases = "13/08/2018";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$4,020";
@@ -98,6 +108,7 @@ $(document).ready(function(){
 					break;
 
 				case 3://SUA
+					inicio_clases = "18/08/2018";
 					inscripcion = "$1,883";
 					colegiatura = "$2,848";
 					tramites = "$1,148";
@@ -109,6 +120,8 @@ $(document).ready(function(){
 		}
 
 		function licPsicologiaSur(){
+			periodo = "Semestral";
+			inicio_clases = "13/08/2018";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$2,660";
@@ -134,6 +147,8 @@ $(document).ready(function(){
 		}
 
 		function licPedagogiaSur(){
+			inicio_clases = "13/08/2018";
+			periodo = "Semestral";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$3,009";
@@ -153,6 +168,8 @@ $(document).ready(function(){
 		}
 
 		function licComunicacionSur(){
+			inicio_clases = "13/08/2018";
+			periodo = "Semestral";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$3,196";
@@ -172,29 +189,12 @@ $(document).ready(function(){
 		}
 
 		function licContaduriaSur(){
+			periodo = "Semestral";
+			inicio_clases = "13/08/2018";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$3,196";
 					colegiatura = "$3,324";
-					tramites = "$232";
-					break;
-
-				case 2://Vespertino
-					inscripcion = "$1,799";
-					colegiatura = "$2,958";
-					tramites = "$232";
-					break;
-
-				default:
-					break;
-			}		
-		}
-
-		function licMercadotecniaSur(){
-			switch (modalidad){
-				case 1://Matutino
-					inscripcion = "$2,638";
-					colegiatura = "$3,405";
 					tramites = "$232";
 					break;
 
@@ -209,31 +209,62 @@ $(document).ready(function(){
 			}		
 		}
 
-		function MANSur(){			
-			inscripcion = "$2,785";
-			colegiatura = "$2,989";
+		function licMercadotecniaSur(){
+			periodo = "Semestral";
+			inicio_clases = "13/08/2018";
+			switch (modalidad){
+				case 1://Matutino
+					inscripcion = "$2,638";
+					colegiatura = "$3,405";
+					tramites = "$232";
+					break;
+
+				case 2://Vespertino
+					inscripcion = "$1,807";
+					colegiatura = "$2,849";
+					tramites = "$232";
+					break;
+
+				default:
+					break;
+			}		
+		}
+
+		function MANSur(){
+			inicio_clases = "03/09/2018";
+			periodo = "Cuatrimestral";			
+			inscripcion = "$2,878";
+			colegiatura = "$3,088";
 			tramites = "$232";					
 		}
 
-		function MDSur(){			
-			inscripcion = "$1,735";
-			colegiatura = "$2,469";
+		function MDSur(){
+			inicio_clases = "03/09/2018";
+			periodo = "Cuatrimestral";			
+			inscripcion = "$1,793";
+			colegiatura = "$2,552";
 			tramites = "$232";					
 		}
 
 		function MCDSur(){			
-			inscripcion = "$2,678";
-			colegiatura = "$3,530";
+			inicio_clases = "03/09/2018";
+			periodo = "Cuatrimestral";
+			inscripcion = "$2,767";
+			colegiatura = "$3,648";
 			tramites = "$232";					
 		}
 
 		function MADMSur(){			
-			inscripcion = "$2,678";
-			colegiatura = "$3,530";
+			inicio_clases = "03/09/2018";
+			periodo = "Cuatrimestral";
+			inscripcion = "$2,767";
+			colegiatura = "$3,648";
 			tramites = "$232";					
 		}
 
-		function DoctoradoSur(){			
+		function DoctoradoSur(){	
+			inicio_clases = "17/08/2018";
+			periodo = "Semestral";		
 			inscripcion = "$8,269";
 			colegiatura = "$6,560";
 			tramites = "$232";
@@ -246,6 +277,8 @@ $(document).ready(function(){
 	/*###  C A M P U S   R O M A  #################*/
 		
 		function licAdministracionRoma(){
+			periodo = "Semestral";
+			inicio_clases = "13/08/2018";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$2,372";
@@ -271,6 +304,8 @@ $(document).ready(function(){
 		}
 
 		function licInformaticaRoma(){
+			inicio_clases = "13/08/2018";
+			periodo = "Semestral";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$2,372";
@@ -287,6 +322,8 @@ $(document).ready(function(){
 		}
 
 		function licDerechoRoma(){
+			inicio_clases = "18/08/2018";
+			periodo = "Semestral";
 			$("#sua-label").show("slow");
 			inscripcion = "$1,889";
 			colegiatura = "$2,854";
@@ -294,6 +331,8 @@ $(document).ready(function(){
 		}
 
 		function licComunicacionRoma(){
+			inicio_clases = "13/08/2018";
+			periodo = "Semestral";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$3,477";
@@ -303,13 +342,15 @@ $(document).ready(function(){
 
 				case 2://Vespertino
 					inscripcion = "$1,786";
-					colegiatura = "$2,704";
+					colegiatura = "$2,709";
 					tramites = "$232";
 					break;
 			}
 		}
 
 		function licContaduriaRoma(){
+			inicio_clases = "13/08/2018";
+			periodo = "Semestral";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$3,477";
@@ -326,6 +367,8 @@ $(document).ready(function(){
 		}
 
 		function licDerechoSepRoma(){
+			inicio_clases = "13/08/2018";
+			periodo = "Semestral";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$3,290";
@@ -342,6 +385,8 @@ $(document).ready(function(){
 		}
 
 		function licMercadotecniaRoma(){
+			inicio_clases = "13/08/2018";
+			periodo = "Semestral";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$2,638";
@@ -357,31 +402,41 @@ $(document).ready(function(){
 			}
 		}
 
-		function MANRoma(){			
+		function MANRoma(){
+			inicio_clases = "03/09/2018";
+			periodo = "Cuatrimestral";			
 			inscripcion = "$1,716";
 			colegiatura = "$3,100";
 			tramites = "$232";					
 		}
 
-		function MDPEJARoma(){			
-			inscripcion = "$1,716";
-			colegiatura = "$3,100";
+		function MDPEJARoma(){	
+			inicio_clases = "03/09/2018";	
+			periodo = "Cuatrimestral";				
+			inscripcion = "$1,773";
+			colegiatura = "$3,203";
 			tramites = "$232";					
 		}
 
-		function MDRoma(){			
-			inscripcion = "$1,494";
-			colegiatura = "$2,467";
+		function MDRoma(){	
+			inicio_clases = "03/09/2018";		
+			periodo = "Cuatrimestral";			
+			inscripcion = "$1,544";
+			colegiatura = "$2,550";
 			tramites = "$232";					
 		}
 
-		function MADMRoma(){			
-			inscripcion = "$2,678";
-			colegiatura = "$3,529";
+		function MADMRoma(){
+			inicio_clases = "03/09/2018";
+			periodo = "Cuatrimestral";						
+			inscripcion = "$2,768";
+			colegiatura = "$3,647";
 			tramites = "$232";					
 		}
 
-		function MCDRoma(){			
+		function MCDRoma(){	
+			inicio_clases = "03/09/2018";		
+			periodo = "Cuatrimestral";						
 			inscripcion = "$2,768";
 			colegiatura = "$3,647";
 			tramites = "$232";
@@ -392,43 +447,57 @@ $(document).ready(function(){
 
 
 	/*######## C A M P U S   C U A U T L A ###########*/
-		function secundariaCuautla(){				
+		function secundariaCuautla(){	
+			inicio_clases = "20/08/2018";
+			periodo = "Anual";			
 			inscripcion = "$3,281";
 			colegiatura = "$2,855";
 			tramites = "$232";				
 		}
 
 		function prepaCuautla(){
+			periodo = "Anual";
+			inicio_clases = "13/08/2018";	
 			inscripcion = "$2,975";
 			colegiatura = "$2,416";
 			tramites = "$1,218";	
 		}
 
 		function bachComunicacionCuautla(){
+			periodo = "Semestral";
+			inicio_clases = "Por confirmar";
 			inscripcion = "$2,673";
 			colegiatura = "$2,231";
 			tramites = "$232";
 		}
 
 		function bachInformaticaCuautla(){
+			periodo = "Semestral";
+			inicio_clases = "Por confirmar";
 			inscripcion = "$2,673";
 			colegiatura = "$2,231";
 			tramites = "$232";
 		}
 
 		function bachTurismoCuautla(){
+			periodo = "Semestral";
+			inicio_clases = "Por confirmar";
 			inscripcion = "$2,673";
 			colegiatura = "$2,231";
 			tramites = "$232";
 		}
 
 		function bachVentasCuautla(){
+			periodo = "Semestral";
+			inicio_clases = "Por confirmar";
 			inscripcion = "$2,673";
 			colegiatura = "$2,231";
 			tramites = "$232";
 		}
 
 		function licComunicacionCuautla(){
+			periodo = "Semestral";
+			inicio_clases = "13/08/2018";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$2,660";
@@ -445,6 +514,8 @@ $(document).ready(function(){
 		}
 
 		function licContaduriaCuautla(){
+			periodo = "Semestral";
+			inicio_clases = "13/08/2018";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$2,633";
@@ -461,6 +532,8 @@ $(document).ready(function(){
 		}
 
 		function licMercadotecniaCuautla(){
+			periodo = "Semestral";
+			inicio_clases = "13/08/2018";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$2,847";
@@ -477,6 +550,8 @@ $(document).ready(function(){
 		}
 
 		function licGastronomiaCuautla(){
+			periodo = "Semestral";
+			inicio_clases = "13/08/2018";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$2,117";
@@ -493,6 +568,8 @@ $(document).ready(function(){
 		}
 
 		function licTurismoCuautla(){
+			periodo = "Semestral";
+			inicio_clases = "13/08/2018";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$2,398";
@@ -509,6 +586,8 @@ $(document).ready(function(){
 		}
 
 		function licPedagogiaCuautla(){
+			periodo = "Semestral";
+			inicio_clases = "13/08/2018";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$2,453";
@@ -525,6 +604,8 @@ $(document).ready(function(){
 		}
 
 		function licDerechoSepCuautla(){
+			periodo = "Semestral";
+			inicio_clases = "13/08/2018";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$2,667";
@@ -541,6 +622,8 @@ $(document).ready(function(){
 		}
 
 		function licPsicologiaCuautla(){
+			periodo = "Semestral";
+			inicio_clases = "13/08/2018";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$3,089";
@@ -557,44 +640,58 @@ $(document).ready(function(){
 		}
 
 		function mcdCuautla(){
-			inscripcion = "$5,317";
-			colegiatura = "$3,844";
+			periodo = "Cuatrimestral";			
+			inicio_clases = "03/09/2018";
+			inscripcion = "$5,494";
+			colegiatura = "$3,972";
 			tramites = "$232";
 		}
 
 		function madmCuautla(){
-			inscripcion = "$5,317";
-			colegiatura = "$3,844";
+			periodo = "Cuatrimestral";			
+			inicio_clases = "03/09/2018";
+			inscripcion = "$5,494";
+			colegiatura = "$3,972";
 			tramites = "$232";
 		}
 
 		function mdpejaCuautla(){
-			inscripcion = "$1,845";
-			colegiatura = "$2,112";
+			periodo = "Cuatrimestral";			
+			inicio_clases = "03/09/2018";
+			inscripcion = "$1,906";
+			colegiatura = "$2,183";
 			tramites = "$232";
 		}
 
 		function mgfpCuautla(){
-			inscripcion = "$1,845";
-			colegiatura = "$2,112";
+			periodo = "Cuatrimestral";			
+			inicio_clases = "03/09/2018";
+			inscripcion = "$1,906";
+			colegiatura = "$2,183";
 			tramites = "$232";
 		}
 
 		function mdCuautla(){
-			inscripcion = "$1,780";
-			colegiatura = "$1,917";
+			periodo = "Cuatrimestral";			
+			inicio_clases = "03/09/2018";
+			inscripcion = "$1,840";
+			colegiatura = "$1,980";
 			tramites = "$232";
 		}
 
 		function epCuautla(){
+			periodo = "Cuatrimestral";			
+			inicio_clases = "03/09/2018";
 			inscripcion = "$1,773";
 			colegiatura = "$2,274";
 			tramites = "$232";
 		}
 
 		function manCuautla(){
-			inscripcion = "$1,845";
-			colegiatura = "$2,112";
+			periodo = "Cuatrimestral";			
+			inicio_clases = "03/09/2018";
+			inscripcion = "$1,906";
+			colegiatura = "$2,183";
 			tramites = "$232";
 		}
 	/*##### F I N   C A M P U S   C U A U T L A ######*/
@@ -604,6 +701,8 @@ $(document).ready(function(){
 
 	/*############## C A M P U S   C U E R N A V A C A ######*/
 		function prepaCuernavaca(){
+			periodo = "Anual";			
+			inicio_clases = "13/08/2018";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$5,198";
@@ -614,31 +713,40 @@ $(document).ready(function(){
 		}
 
 		function bachComunicacionCuernavaca(){
-			inscripcion = "$3,455";
+			periodo = "Semestral";			
+			inicio_clases = "Por confirmar";
+			inscripcion = "$3,645";
 			colegiatura = "$3,042";
-			tramites = "$232";
-			console.log("JAMON");
+			tramites = "$232";			
 		}
 
 		function bachInformaticaCuernavaca(){
-			inscripcion = "$3,455";
+			periodo = "Semestral";			
+			inicio_clases = "Por confirmar";
+			inscripcion = "$3,645";
 			colegiatura = "$3,042";
-			tramites = "$232";
+			tramites = "$232";	
 		}
 
 		function bachTurismoCuernavaca(){
-			inscripcion = "$3,455";
+			periodo = "Semestral";			
+			inicio_clases = "Por confirmar";
+			inscripcion = "$3,645";
 			colegiatura = "$3,042";
-			tramites = "$232";
+			tramites = "$232";	
 		}
 
 		function bachVentasCuernavaca(){
-			inscripcion = "$3,455";
+			periodo = "Semestral";			
+			inicio_clases = "Por confirmar";
+			inscripcion = "$3,645";
 			colegiatura = "$3,042";
-			tramites = "$232";
+			tramites = "$232";	
 		}
 
 		function licAdministracionCuernavaca(){
+			periodo = "Semestral";			
+			inicio_clases = "13/08/2018";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$3,287";
@@ -655,6 +763,8 @@ $(document).ready(function(){
 		}
 
 		function licInformaticaCuernavaca(){
+			periodo = "Semestral";			
+			inicio_clases = "13/08/2018";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$";
@@ -671,11 +781,13 @@ $(document).ready(function(){
 		}
 
 		function licDerechoCuernavaca(){
+			periodo = "Semestral";			
+			inicio_clases = "13/08/2018";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$2,747";
 					colegiatura = "$2,573";
-					tramites = "$1044";				
+					tramites = "$1,044";				
 					break;
 
 				case 2://Vespertino
@@ -685,6 +797,7 @@ $(document).ready(function(){
 					break;
 
 				case 3://SUA
+					inicio_clases = "18/08/2018";
 					inscripcion = "$2,633";
 					colegiatura = "$2,271";
 					tramites = "$928";
@@ -693,11 +806,13 @@ $(document).ready(function(){
 		}
 
 		function licPsicologiaCuernavaca(){
+			periodo = "Semestral";			
+			inicio_clases = "13/08/2018";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$3,396";
 					colegiatura = "$2,733";
-					tramites = "$1102";				
+					tramites = "$1,102";				
 					break;
 
 				case 2://Vespertino
@@ -709,28 +824,32 @@ $(document).ready(function(){
 				case 3://SUA
 					inscripcion = "$1,869";
 					colegiatura = "$2,586";
-					tramites = "$1102";
+					tramites = "$1,102";
 					break;
 			}
 		}
 
 		function licPedagogiaCuernavaca(){
+			periodo = "Semestral";			
+			inicio_clases = "13/08/2018";
 			switch (modalidad){
 				case 1://Matutino
-					inscripcion = "$2,858";
-					colegiatura = "$2,115";
+					inscripcion = "$3,015";
+					colegiatura = "$2,231";
 					tramites = "$232";				
 					break;
 
 				case 2://Vespertino
-					inscripcion = "$3,015";
-					colegiatura = "$2,231";
+					inscripcion = "$1,566";
+					colegiatura = "$2,085";
 					tramites = "$232";
 					break;				
 			}
 		}
 
 		function licComunicacionCuernavaca(){
+			periodo = "Semestral";			
+			inicio_clases = "13/08/2018";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$2,298";
@@ -747,6 +866,8 @@ $(document).ready(function(){
 		}
 
 		function licContaduriaCuernavaca(){
+			periodo = "Semestral";			
+			inicio_clases = "13/08/2018";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$2,660";
@@ -763,6 +884,8 @@ $(document).ready(function(){
 		}
 
 		function licTurismoCuernavaca(){
+			periodo = "Semestral";			
+			inicio_clases = "13/08/2018";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$3,470";
@@ -779,6 +902,8 @@ $(document).ready(function(){
 		}
 
 		function licGastronomiaCuernavaca(){
+			periodo = "Semestral";			
+			inicio_clases = "13/08/2018";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$3,659";
@@ -795,6 +920,8 @@ $(document).ready(function(){
 		}
 
 		function licMercadotecniaCuernavaca(){
+			periodo = "Cuatrimestral";			
+			inicio_clases = "13/08/2018";
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$2,787";
@@ -811,44 +938,58 @@ $(document).ready(function(){
 		}
 
 		function manCuernavaca(){
-			inscripcion = "$2,994";
-			colegiatura = "$2,251";
+			periodo = "Cuatrimestral";			
+			inicio_clases = "03/09/2018";
+			inscripcion = "$3,094";
+			colegiatura = "$2,325";
 			tramites = "$232";
 		}
 
 		function mrhCuernavaca(){
-			inscripcion = "$2,994";
-			colegiatura = "$2,251";
+			periodo = "Cuatrimestral";			
+			inicio_clases = "03/09/2018";
+			inscripcion = "$3,094";
+			colegiatura = "$2,325";
 			tramites = "$232";
 		}
 
 		function mgfpCuernavaca(){
-			inscripcion = "$2,994";
-			colegiatura = "$2,251";
+			periodo = "Cuatrimestral";			
+			inicio_clases = "03/09/2018";
+			inscripcion = "$3,094";
+			colegiatura = "$2,325";
 			tramites = "$232";
 		}
 
 		function mdCuernavaca(){
-			inscripcion = "$1,761";
-			colegiatura = "$1,903";
+			periodo = "Cuatrimestral";			
+			inicio_clases = "03/09/2018";
+			inscripcion = "$1,820";
+			colegiatura = "$1,967";
 			tramites = "$232";
 		}
 
 		function mcdCuernavaca(){
-			inscripcion = "$5,317";
-			colegiatura = "$3,844";
+			periodo = "Cuatrimestral";			
+			inicio_clases = "03/09/2018";
+			inscripcion = "$5,495";
+			colegiatura = "$3,972";
 			tramites = "$232";
 		}
 
 		function madmCuernavaca(){
-			inscripcion = "$5,317";
-			colegiatura = "$3,844";
+			periodo = "Cuatrimestral";			
+			inicio_clases = "03/09/2018";
+			inscripcion = "$5,495";
+			colegiatura = "$3,972";
 			tramites = "$232";
 		}
 
 		function epCuernavaca(){
-			inscripcion = "$1,765";
-			colegiatura = "$2,431";
+			periodo = "Cuatrimestral";			
+			inicio_clases = "27/08/2018";
+			inscripcion = "$1,809";
+			colegiatura = "$2,491";
 			tramites = "$232";
 		}
 	/*############## F I N  C A M P U S   C U E R N A V A C A ######*/
@@ -880,6 +1021,8 @@ $(document).ready(function(){
 	var colegiatura = -1;
 	var tramites = -1;
 	var modalidad = -1;
+	var periodo = "default";
+	var inicio_clases = "default";
 
 	
 
@@ -1049,13 +1192,13 @@ $(document).ready(function(){
 	/*función vaciar combo nivel-educativo*/
 	function vaciarNivelEducativo(){
 		$("#nivel-educativo").html("");
-		$("#nivel-educativo").append("<option id='0' value='0'>selecciona una opción</option>");
+		$("#nivel-educativo").append("<option id='0' value='0'>Selecciona una opción</option>");
 	}
 
 	/*función vaciar combo plan-educativo*/
 	function vaciarPlanEducativo(){
 		$("#plan-educativo").html("");
-		$("#plan-educativo").append("<option id='0' value='0'>selecciona una opción</option>");
+		$("#plan-educativo").append("<option id='0' value='0'>Selecciona una opción</option>");
 	}
 
 	/*Eliminar valores*/
@@ -1247,7 +1390,7 @@ $(document).ready(function(){
 
 	function llenarComboSuperiorCuernavaca(){
 		$("#plan-educativo").append(licAdministracion);
-		$("#plan-educativo").append(licInformatica);
+		//$("#plan-educativo").append(licInformatica);
 		$("#plan-educativo").append(licDerecho);
 		$("#plan-educativo").append(licPsicologia);
 		$("#plan-educativo").append(licPedagogia);
@@ -1358,6 +1501,8 @@ $(document).ready(function(){
 		$("#inscripcion").html(inscripcion);
 		$("#colegiatura").html(colegiatura);
 		$("#tramites").html(tramites);
+		$("#inicio_clases").html(inicio_clases);
+		$("#periodo").html(periodo);
 		$("#costos").show("slow");
 	}
 

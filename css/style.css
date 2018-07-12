@@ -2059,7 +2059,7 @@ img.author-box-image {
     margin-bottom: 15px;
     opacity:0.6;
     background-color: rgba(0, 0, 0, 0.1);
-    color: #202020;
+    color: #000 !important;
     border: none;
 }
 
@@ -2070,7 +2070,7 @@ img.author-box-image {
     margin-bottom: 15px;    
     background-color: rgba(0, 0, 0, 0.1);
     opacity:0.7;
-    color: #202020;
+    color: #000 !important;
     border: none;
 }
 
@@ -2082,7 +2082,7 @@ img.author-box-image {
     opacity:0.7;
     margin-bottom: 15px;    
     background-color: rgba(0, 0, 0, 0.1);
-    color: #202020;
+    color: #000 !important;
     border: none;
 }
 
@@ -2349,6 +2349,10 @@ img.author-box-image {
   color: #CAB276;
 }
 
+.texto-dorado-fuerte{
+  color: #A79159;
+}
+
 .texto-blanco{
   color: #FFF;
 }
@@ -2401,4 +2405,26 @@ img.author-box-image {
     display: none;
     padding: 1px; 
     margin: 1px;
+}
+
+.fondo-paleta-1{
+    background-color: #CBBAA3;    
+}
+
+.fondo-paleta-2{
+    background-color: #DDD2C3;   
+}
+
+.fondo-paleta-3{
+    background-color: #F6F2EE;
+}
+
+.fondo-paleta-4{
+    background-color: #725533;
+    color: #F6F2EE;
+}
+
+.fondo-paleta-5{
+    background-color: #5C090A;
+    color: #FFF;
 }

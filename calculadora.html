@@ -52,7 +52,7 @@
     </header><!--/header-->    
 
     <div id="content-wrapper">
-        <section id="portfolio" class="white">
+        <section id="calculo" class="white" style="display: none;">
             <div class="container">
                 <div class="gap"></div> 
                 <div class="center gap fade-down section-heading">
@@ -114,6 +114,8 @@
                                         <th>Inscripción</th>
                                         <th>Colegiatura</th>
                                         <th>Trámites</th>
+                                        <th>Inicio de clases</th>
+                                        <th>Periodo</th>
                                     </tr>
                                 </thead>    
                                 <tbody>
@@ -127,9 +129,15 @@
                                         <td>
                                             <span id="tramites"></span>
                                         </td>
+                                        <td>
+                                            <span id="inicio_clases"></span>
+                                        </td>
+                                        <td>
+                                            <span id="periodo"></span>
+                                        </td>
                                     </tr> 
                                     <tr>
-                                        <td colspan="3">
+                                        <td colspan="5">
                                             <p class="texto-dorado negritas italica">*Consulta nuestros planes de financiamiento...siempre tenemos promociones para ti, pregunta con tus promotores.</p>
                                         </td>
                                     </tr>                               
@@ -143,74 +151,12 @@
         </section>
 
         <section id="contact">
-            <div class="container about-us-widget">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12">
+            <div class="container about-us-widget">                
+                <div class="row centrado">
+                    <div class="col-md-12 col-sm-12 ">                        
                         <br>
-                    </div>
-                </div>
-                <div class="row">                
-                    <div class="col-md-6 col-sm-6 centrado">
-                        <div id="message"><h4 class="main-title texto-dorado centrado">Conoce los campus donde se imparte la licenciatura en derecho<br></h4></div>
-                        <div class="col-md-6 col-sm-12 centrado">                        
-                            <div>
-                                <a href="http://www.unila.edu.mx/unila-campus-sur-coyoacan.html">                            
-                                    <div class="">
-                                        <div class="centrado">
-                                            <img class="" src="images/unila/sur.jpg" alt="" style="width: 100%;">
-                                        </div>
-                                        <div class="media-body">                                    
-                                            <span class="media-heading"><h2>Sur</h2></span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>  
-                        </div><!--/.col-md-3-->       
-                        <div class="col-md-6 col-sm-12 centrado">                        
-                            <div>
-                                <a href="http://www.unila.edu.mx/unila-campus-roma">                            
-                                    <div class="">
-                                        <div class="centrado">
-                                            <img class="" src="images/unila/roma.jpg" alt="" style="width: 100%;">
-                                        </div>
-                                        <div class="media-body">                                    
-                                            <span class="media-heading"><h2>Roma</h2></span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>  
-                        </div><!--/.col-md-3--> 
-                        <div class="col-md-6 col-sm-12 centrado">                        
-                            <div>
-                                <a href="http://www.unila.edu.mx/unila-campus-cuautla">                            
-                                    <div class="">
-                                        <div class="centrado">
-                                            <img class="" src="images/unila/cuautla.jpg" alt="" style="width: 100%;">
-                                        </div>
-                                        <div class="media-body">                                    
-                                            <span class="media-heading"><h2>Cuautla</h2></span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12 centrado">                        
-                            <div>
-                                <a href="http://www.unila.edu.mx/unila-campus-cuautla">                            
-                                    <div class="">
-                                        <div class="centrado">
-                                            <img class="" src="images/unila/cuernavaca.jpg" alt="" style="width: 100%;">
-                                        </div>
-                                        <div class="media-body">                                    
-                                            <span class="media-heading"><h2>Cuernavaca</h2></span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>  
-                        </div><!--/.col-md-3-->
-                    </div><!--/.col-md-3-->
-                    <div class="col-md-6 col-sm-6">                        
-                        <div id="message"><h3 class="main-title texto-dorado centrado">No lo pienses más, ¡Contáctanos!</h3></div>
+                        <br>
+                        <div id="message"><h3 id="titulo-formulario" class="main-title texto-dorado centrado">Para ver la calculadora, déjanos tus datos</h3></div>
                         <div class="alert alert-success" style="display: none;" id="success-form">
                             La información ha sido enviada correctamente, en menos de 24 Hrs. tendrá respuesta a su petición, ¡Gracias!
                         </div>

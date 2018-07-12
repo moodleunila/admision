@@ -80,6 +80,8 @@ $(document).ready(function(){
                     $("#success-form").show("slow");
                     $("#contactform").hide("slow");
                     $("#danger-form").hide("slow");
+                    $("#calculo").show("slow");
+                    $("#titulo-formulario").hide("slow");
                 },
                 error: function(xhr, status){
                     $("#danger-form").show("slow");
