@@ -1581,7 +1581,7 @@ img.author-box-image {
 /*-----------------------------------------------------------------------------------*/
 
 .divider-section {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.5);
     position: relative;
     overflow: hidden;
     display: block;
@@ -2058,9 +2058,10 @@ img.author-box-image {
     padding: 10px 5px;
     margin-bottom: 15px;
     opacity:0.6;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.4);
     color: #000 !important;
     border: none;
+    font-weight: bold;
 }
 
 #contactform input#telefono{
@@ -2068,10 +2069,11 @@ img.author-box-image {
     width: 50%;
     padding: 10px 5px;
     margin-bottom: 15px;    
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.4);
     opacity:0.7;
     color: #000 !important;
     border: none;
+    font-weight: bold;
 }
 
 #contactform input#celular{
@@ -2081,9 +2083,10 @@ img.author-box-image {
     padding: 10px 5px;
     opacity:0.7;
     margin-bottom: 15px;    
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.4);
     color: #000 !important;
     border: none;
+    font-weight: bold;
 }
 
 #contactform textarea#comments {
@@ -2426,5 +2429,15 @@ img.author-box-image {
 
 .fondo-paleta-5{
     background-color: #5C090A;
+    color: #FFF;
+}
+
+.fondo-paleta-6{
+    background-color: #f4cb89;
+
+}
+
+.fondo-paleta-7{
+    background-color: #7F6000;
     color: #FFF;
 }
