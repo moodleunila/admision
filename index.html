@@ -42,13 +42,13 @@
                     <span class="sr-only">Toggle navigation</span>
                     <i class="fa fa-bars"></i>
                 </button>
-                 <a class="navbar-brand" href="./"><img src="images/unila/logo_blanco.png" width="35%"></a>
+                <a id="logo-header-blanco" class="navbar-brand" href="./"><img src="images/unila/logo_blanco.png" width="35%"></a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#modelo-educativo">Modelo pedagógico</a></li>                    
+                    <li><a href="#modelo-educativo">Modelo</a></li>                    
                     <li class="dropdown active">
-                    <a href="#oferta-educativa-s" class="dropdown-toggle" data-toggle="dropdown">Oferta educativa<i class="icon-angle-down"></i></a>
+                    <a href="#oferta-educativa-s" class="dropdown-toggle" data-toggle="dropdown">Oferta<i class="icon-angle-down"></i></a>
                     <ul class="dropdown-menu">
                         <li><a href="#"><br><br>Básica</a></li>
                         <li><a href="#">Media superior</a></li>
@@ -58,8 +58,9 @@
                         <li><a href="#">Doctorado</a></li>
                     </ul>
                     </li>                    
-                    <li><a href="#planes-apoyo-economico">Planes de Apoyo Económico</a></li>    
-                    <li><a href="#becas">Tipos de becas</a></li>                    
+                    <li><a href="#planes-apoyo-economico">Planes de Apoyo</a></li>    
+                    <li><a href="#becas">Becas</a></li>
+                    <li><a href="#convenios">Convenios</a></li>                    
                     <li><a href="calculadora.html" target="_blank">Calcula tu colegiatura aquí</a></li>                                                        
                 </ul>
             </div>
@@ -121,9 +122,9 @@
                     </div>
                 </div>                               
                 <div class="gap"></div>
-                <div class="row">                                        
-                    <a href="secundaria.html" target="_blank">
-                        <div class="col-md-4 col-sm-6">
+                <div class="row">                    
+                    <div class="col-md-4 col-sm-6">
+                        <a href="secundaria.html" target="_blank">
                             <div class="service-block">
                                 <div class="pull-left bounce-in">
                                     <img class="fa fa-dashboard fa fa-md" src="images/unila/iconos-admi/sec.png">
@@ -136,29 +137,32 @@
                                     </ul>
                                 </div>
                             </div>
-                        </div><!--/.col-md-4-->
-                    </a>
-                    <a href="bachilleratost.html" target="_blank">
-                        <div class="col-md-4 col-sm-6">                        
-                            <div class="service-block">
-                                <div class="pull-left bounce-in">
-                                    <img class="fa fa-dashboard fa fa-md" src="images/unila/iconos-admi/prep.png">
-                                </div>
-                                <div class="media-body fade-up">
-                                    <h3 class="media-heading">Bachillerato tecnológico</h3>
-                                    <p>Tenemos distintas opciones para que curses la mejor para ti:</p>
-                                    <ul>
-                                        <li>Comunicacación</li>
-                                        <li>Informática</li>                                    
-                                        <li>Turismo</li>
-                                        <li>Ventas</li>
-                                    </ul>
-                                </div>
+                        </a>
+                    </div><!--/.col-md-4-->
+                    
+                    
+                    <div class="col-md-4 col-sm-6">                        
+                        <a href="bachilleratost.html" target="_blank">
+                        <div class="service-block">
+                            <div class="pull-left bounce-in">
+                                <img class="fa fa-dashboard fa fa-md" src="images/unila/iconos-admi/prep.png">
                             </div>
-                        </div><!--/.col-md-4-->
-                    </a>
-                    <a href="preparatorias.html" target="_blank">
-                        <div class="col-md-4 col-sm-6">
+                            <div class="media-body fade-up">
+                                <h3 class="media-heading">Bachillerato tecnológico</h3>
+                                <p>Tenemos distintas opciones para que curses la mejor para ti:</p>
+                                <ul>
+                                    <li>Comunicacación</li>
+                                    <li>Informática</li>                                    
+                                    <li>Turismo</li>
+                                    <li>Ventas</li>
+                                </ul>
+                            </div>
+                        </div>
+                        </a>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6">
+                        <a href="preparatorias.html" target="_blank">
                             <div class="service-block">
                                 <div class="pull-left bounce-in">
                                     <img class="fa fa-dashboard fa fa-md" src="images/unila/iconos-admi/bach.png">
@@ -171,15 +175,15 @@
                                         <li>Colegio de Ciencias y Humanidades</li>
                                     </ul>
                                 </div>
-                            </div>
-                        </div><!--/.col-md-4-->
-                    </a>
-                </div><!--/.row-->
-                <br>
-                <br> 
-                <div class="row">   
-                    <a href="licenciaturasr.html" target="_blank">                 
-                        <div class="col-md-4 col-sm-6">
+                            </div>                        
+                        </a>
+                    </div><!--/.row-->
+                    <br>
+                    <br> 
+                </div>               
+                <div class="row">                  
+                    <div class="col-md-4 col-sm-6">
+                        <a href="licenciaturasr.html" target="_blank">                                         
                             <div class="service-block">
                                 <div class="pull-left bounce-in">
                                     <img class="fa fa-dashboard fa fa-md" src="images/unila/iconos-admi/lic.png">
@@ -187,12 +191,14 @@
                                 <div class="media-body fade-up">
                                     <h3 class="media-heading">Licenciaturas</h3>
                                     <p>Explora todas las licenciaturas y comprueba que somos la mejor opción para tí.</p>
+                                    <br>                                    
                                 </div>
                             </div>
-                        </div><!--/.col-md-4-->
-                    </a>
-                    <a href="">
-                        <div class="col-md-4 col-sm-6">
+                        </a>
+                    </div><!--/.col-md-4-->                        
+
+                    <div class="col-md-4 col-sm-6">
+                        <a href="">
                             <div class="service-block">
                                 <div class="pull-left bounce-in">
                                     <img class="fa fa-dashboard fa fa-md" src="images/unila/iconos-admi/maestrias.png">
@@ -202,10 +208,10 @@
                                     <p>Es imprescindible continuar estudiando en un mundo tan competitivo, estudia un posgrado, tenemos las mejores opciones.</p>
                                 </div>
                             </div>
-                        </div><!--/.col-md-4-->
-                    </a>
-                    <a href="">
-                        <div class="col-md-4 col-sm-6">
+                        </a>                        
+                    </div><!--/.col-md-4-->                    
+                    <div class="col-md-4 col-sm-6">
+                        <a href="">
                             <div class="service-block">
                                 <div class="pull-left bounce-in">
                                     <img class="fa fa-dashboard fa fa-md" src="images/unila/iconos-admi/doc.png">
@@ -215,8 +221,8 @@
                                     <p>Tenemos el doctorado perfecto para aquellas personas que su pasión es la investigación.</p>
                                 </div>
                             </div>
-                        </div><!--/.col-md-4-->
-                    </a>
+                        </a>
+                    </div><!--/.col-md-4-->                    
                 </div><!--/.row-->
                 <br>
                 <br>
@@ -273,6 +279,20 @@
             </div>
         </section>
 
+        <section id="convenios" class="white" style="background-color: #FFF;">
+            <div class="row">
+                <br>
+            </div>
+            <div class="container">
+                <div class="row">                   
+                    <div class="col-md-12 col-sm-12 center">
+                        <div class="container-wrapper-genially" style="position: relative; min-height: 400px; max-width: 100%;"><img src="https://genially.blob.core.windows.net/genially/version3.0/loader.gif" class="loader-genially" style="position: absolute; top: 0; right: 0; bottom: 0; left: 0; margin-top: auto; margin-right: auto; margin-bottom: auto; margin-left: auto; z-index: 1;width: 120px; height: 120px;"/><div id="5b4f4cdad94ec11008ebf9ae" class="genially-embed" style="margin: 0px auto; position: relative; height: auto; width: 100%;"></div></div><script>(function (d) { var js, id = "genially-embed-js", ref = d.getElementsByTagName("script")[0]; if (d.getElementById(id)) { return; } js = d.createElement("script"); js.id = id; js.async = true; js.src = "https://view.genial.ly/static/embed/embed.js"; ref.parentNode.insertBefore(js, ref); }(document));</script>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
 
         <section id="numeros" class="divider-section">
             <div class="gap"></div>
@@ -282,28 +302,44 @@
                         <h2 class="main-title texto-dorado">Nuestras opciones</h2>
                         <hr>                        
                     </div>
-                    <div class="col-md-3 col-xs-6">
+
+                    <div class="col-md-4 col-xs-12">
                         <div class="center bounce-in">
-                            <span class="stat-icon"><span class="pe-7s-star bounce-in"></span></span>
-                            <h1><span class="counter">7</span></h1>
-                            <h3>Medio superior</h3>
+                            <span class="stat-icon"><span class="pe-7s-display2 bounce-in"></span></span>
+                            <h1><span class="counter">1</span></h1>
+                            <h3>Básica</h3>
                         </div>
                     </div>
-                    <div class="col-md-3 col-xs-6">
+
+                    <div class="col-md-4 col-xs-12">
+                        <div class="center bounce-in">
+                            <span class="stat-icon"><span class="pe-7s-star bounce-in"></span></span>
+                            <h1><span class="counter">4</span></h1>
+                            <h3>Bachilleratos</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="center bounce-in">
+                            <span class="stat-icon"><span class="pe-7s-star bounce-in"></span></span>
+                            <h1><span class="counter">3</span></h1>
+                            <h3>Media</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
                         <div class="center bounce-in">
                             <span class="stat-icon"><span class="pe-7s-study bounce-in"></span></span>
                             <h1><span class="counter">10</span></h1>
                             <h3>Licenciaturas</h3>
                         </div>
                     </div>
-                    <div class="col-md-3 col-xs-6">
+                    <div class="col-md-4 col-xs-12">
                         <div class="center bounce-in">
                             <span class="stat-icon"><span class="pe-7s-portfolio bounce-in"></span></span>
                             <h1><span class="counter">8</span></h1>
                             <h3>Maestrías</h3>
                         </div>
                     </div>
-                    <div class="col-md-3 col-xs-6">
+                    <div class="col-md-4 col-xs-12">
                         <div class="center bounce-in">
                             <span class="stat-icon"><span class="pe-7s-drawer bounce-in"></span></span>
                             <h1><span class="counter">1</span></h1>
@@ -452,7 +488,7 @@
                             </a><br>
                             <br>
                             <br>
-                            <img src="images/unila/esr.png" width="110%"> 
+                            <img src="images/unila/esr.png" width="100%"> 
                         </div>
                     </div> <!--/.col-md-3-->   
 

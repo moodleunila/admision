@@ -2023,6 +2023,8 @@ img.author-box-image {
     #main-slider .carousel-inner .item .row .col-sm-12 {
         height: 100vh;
     }
+
+
 }
 
 @media screen and (max-width:769px) {
@@ -2039,6 +2041,9 @@ img.author-box-image {
         margin: 0 5px;
         width: 20px;
         height: 20px;
+    }
+    #logo-header-blanco{
+        width: 80%;
     }
 }
 
