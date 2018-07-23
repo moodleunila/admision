@@ -265,18 +265,22 @@
                             <p class="justificado">
                             La Licenciatura en Ciencias de la Comunicación y Periodismo se imparte en los siguientes campus, al dar clic en ellos se mostrarán detalles:
                             </p>  
-                            <br>                                                                  
-                            <div class="col-md-4 col-sm-12 center">
+                            <br>       
+                            <div class="col-md-3 col-sm-12 center">
                                 <br>
-                                <button class="btn btn-default" data-toggle="modal" data-target="#campus-roma"><img src="images/unila/logo_campus_roma_s_d.png" width="%"></button>
+                                <button class="btn btn-default" data-toggle="modal" data-target="#campus-sur"><img src="images/unila/logo_campus_sur_s_d.png" width="%"></button>
+                            </div><!--/.col-md-3-->                                                           
+                            <div class="col-md-3 col-sm-12 center">
+                                <br>
+                                <button class="btn btn-default" data-toggle="modal" data-target="#campus-roma"><img src="images/unila/logo_campus_roma_s_g.png" width="%"></button>
                             </div><!--/.col-md-3-->
-                            <div class="col-md-4 col-sm-12 center">
+                            <div class="col-md-3 col-sm-12 center">
                                 <br>
-                                <button class="btn btn-default" data-toggle="modal" data-target="#campus-cuautla"><img src="images/unila/logo_campus_cuautla_s_g.png" width="%"></button>
+                                <button class="btn btn-default" data-toggle="modal" data-target="#campus-cuautla"><img src="images/unila/logo_campus_cuautla_s_d.png" width="%"></button>
                             </div><!--/.col-md-3-->
-                            <div class="col-md-4 col-sm-12 center">
+                            <div class="col-md-3 col-sm-12 center">
                                 <br>
-                                <button class="btn btn-default" data-toggle="modal" data-target="#campus-cuernavaca"><img src="images/unila/logo_campus_cuernavaca_s_d.png" width="%"></button>
+                                <button class="btn btn-default" data-toggle="modal" data-target="#campus-cuernavaca"><img src="images/unila/logo_campus_cuernavaca_s_g.png" width="%"></button>
                             </div><!--/.col-md-3-->
                         </div>
                         <br>
@@ -470,7 +474,21 @@
                 </div>
                 <div class="row">                
                     <div class="col-md-6 col-sm-6 centrado">
-                        <div id="message"><h3 class="main-title texto-dorado centrado">Conoce los datos de los promotores de cada campus donde se imparte la Licenciatura en Ciencias de la Comunicación y Periodismo<br></h3></div>                           
+                        <div id="message"><h3 class="main-title texto-dorado centrado">Conoce los datos de los promotores de cada campus donde se imparte la Licenciatura en Ciencias de la Comunicación y Periodismo<br></h3></div>    
+                        <div class="col-md-6 col-sm-12 centrado">                        
+                            <div>
+                                <a href=""data-toggle="modal" data-target="#campus-sur-informes">                           
+                                    <div class="">
+                                        <div class="centrado">
+                                            <img class="" src="images/unila/sur.jpg" alt="" style="width: 100%;">
+                                        </div>
+                                        <div class="media-body">                                    
+                                            <span class="media-heading"><h2>Sur</h2></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>  
+                        </div><!--/.col-md-3-->                          
                         <div class="col-md-6 col-sm-12 centrado">                        
                             <div>
                                 <a href=""data-toggle="modal" data-target="#campus-cuautla-informes">                          
@@ -533,7 +551,8 @@
                             <input type="text" name="email" id="email" placeholder="Email" style="background-color: #e9ecef;"/>                           
                             <div class="alert alert-danger error-form"  id="err-campus">Por favor seleccione un campus</div>
                             <select id="campus" name="campus" style="background-color: #e9ecef;">
-                                <option id="0" value="0">Selecciona campus</option>                                   
+                                <option id="0" value="0">Selecciona campus</option>  
+                                <option id="1" value="1">Sur</option>                                  
                                 <option id="2" value="2">Roma</option>    
                                 <option id="3" value="3">Cuautla</option>                                
                                 <option id="4" value="4">Cuernavaca</option>                                    
@@ -576,7 +595,7 @@
                         <br>
                         <br>
                         <center>
-                            <a class="centrado" href="http://www.unila.edu.mx/aviso-de-privacidad">Aviso de privacidad</a>
+                            <a class="centrado" href="#">Aviso de privacidad</a>
                         </center>
                     </div>
                     <div class="col-sm-3">
@@ -591,6 +610,49 @@
 
 
     <!--############# M O D A L E S ############-->
+    <div class="modal fade" id="campus-sur" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title texto-dorado centrado" id="exampleModalLabel">Campus Sur</h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">    
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <hr>
+                <div class="modal-body">
+                    <table class="table">
+                        <thead class="thead-dark">
+                        <tr>
+                          <th scope="col" colspan="2" class="centrado"><h4>Datos generales</h4></th>
+                        </tr>
+                      </thead>           
+                        <tbody>
+                            <tr>
+                                <th scope="row">Acuerdo:</th>
+                                <td>SEP RVOE 2005723</td>                                
+                            </tr>
+                            <tr>
+                                <th scope="row">Teléfono</th>
+                                <td>(55) 9171 9670 </td>                               
+                            </tr>
+                            <tr>
+                                <th scope="row">Dirección</th>
+                                <td>
+                                    Pedro Henríquez Ureña 173,Col. Los Reyes Del. Coyoacán, México DF.
+                                </td>                                
+                            </tr>
+                      </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary caja-dorada texto-blanco" data-dismiss="modal">Cerrar</button>            
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <div class="modal fade" id="campus-roma" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
@@ -707,6 +769,39 @@
                                     Vicente Guerrero 1806, Col. Las Maravillas, Cuernavaca, Morelos.
                                 </td>                                
                             </tr>
+                      </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary caja-dorada texto-blanco" data-dismiss="modal">Cerrar</button>            
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--***************CAMPUS SUR************-->
+    <div class="modal fade" id="campus-sur-informes" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title texto-dorado centrado" id="exampleModalLabel">Campus Sur</h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">    
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <hr>
+                <div class="modal-body">
+                    <table class="table">
+                        <thead class="thead-dark">
+                        <tr>
+                            <th scope="col" class="centrado"><h4>Datos de contacto</h4></th>
+                        </tr>
+                      </thead>           
+                        <tbody>
+                            <tr>                                
+                                <td><img src="images/unila/sur-info.png" width="100%"></td>                                
+                            </tr>                            
                       </tbody>
                     </table>
                 </div>
