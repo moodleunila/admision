@@ -405,9 +405,9 @@ $(document).ready(function(){
 		function MANRoma(){
 			inicio_clases = "03/09/2018";
 			periodo = "Cuatrimestral";			
-			inscripcion = "$1,716";
-			colegiatura = "$3,100";
-			tramites = "$232";					
+			inscripcion = "$1,773";
+			colegiatura = "$3,203";
+			tramites = "$232";
 		}
 
 		function MDPEJARoma(){	
@@ -920,7 +920,7 @@ $(document).ready(function(){
 		}
 
 		function licMercadotecniaCuernavaca(){
-			periodo = "Cuatrimestral";			
+			periodo = "Semestral";			
 			inicio_clases = "13/08/2018";
 			switch (modalidad){
 				case 1://Matutino
@@ -986,7 +986,7 @@ $(document).ready(function(){
 		}
 
 		function epCuernavaca(){
-			periodo = "Cuatrimestral";			
+			periodo = "Trimestral";			
 			inicio_clases = "27/08/2018";
 			inscripcion = "$1,809";
 			colegiatura = "$2,491";
