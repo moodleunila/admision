@@ -5,8 +5,7 @@ $(document).ready(function(){
         var nombre = $("#nombre").val();
         var telefono = $("#telefono").val();
         var celular = $("#celular").val();
-        var email = $("#email").val();
-        var asunto = $("#asunto").val();
+        var email = $("#email").val();        
         var mensaje = $("#mensaje-txt").val();
         var campus = $("#campus option:selected").val();
         var modalidad = $("#modalidad-form option:selected").val();
@@ -34,17 +33,8 @@ $(document).ready(function(){
         if (caract.test(email) == false){
             enviar = false;
             $("#err-email").show("slow");
-        }
-
-        if(mensaje == "" || mensaje == null){
-            $("#err-mensaje").show("slow");
-            enviar = false;
-        }
-
-        if(asunto == "" || asunto == null){
-            $("#err-asunto").show("slow");
-            enviar = false;
-        }
+        }        
+        
         
         if(campus < 1){
             $("#err-campus").show("slow");
@@ -67,8 +57,7 @@ $(document).ready(function(){
                 'nombre' : nombre,
                 'telefono' : telefono,
                 'celular' : celular,
-                'email' : email,
-                'asunto' : asunto,
+                'email' : email,                
                 'mensaje' : mensaje,
                 'campus' : campus,
                 'modalidad' : modalidad,

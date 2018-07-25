@@ -10,8 +10,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email   = stripslashes(trim($_POST['email']));
     $fk_plan_estudios   = stripslashes(trim($_POST['plan']));
     $fk_campus   = stripslashes(trim($_POST['campus']));
-    $fk_modalidad = stripslashes(trim($_POST['modalidad']));
-    $asunto = stripslashes(trim($_POST['asunto']));
+    $fk_modalidad = stripslashes(trim($_POST['modalidad']));    
     $mensaje = stripslashes(trim($_POST['mensaje']));	
 
     if (empty($nombre)) {
@@ -21,14 +20,11 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         $errors['email'] = 'El correo electrónico es inválido';
     }
+   
 
-    if (empty($asunto)) {
-        $errors['asunto'] = 'El asunto es requerido';
-    }
-
-    if (empty($mensaje)) {
+    /*if (empty($mensaje)) {
         $errors['mensaje'] = 'El mensaje es requerido';
-    }
+    }*/
 
     if (!empty($errors)) {
         $data['success'] = false;
@@ -40,17 +36,13 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
             $errors['formato-nombre'] = 'El formato de nombre es incorrecto';
             $bandera = false;
         }
-
-        if (preg_match('/(http|https):\\/\\/[a-z0-9]+([\\-\\.]{1}[a-z0-9]+)*\\.[a-z]{2,5}'.'((:[0-9]{1,5})?\\/.*)?$/i' ,$asunto)){
-            $errors['formato-asunto'] = 'El formato de asunto es una URL';
-            $bandera = false;
-        }
+        
         if (preg_match('/(http|https):\\/\\/[a-z0-9]+([\\-\\.]{1}[a-z0-9]+)*\\.[a-z]{2,5}'.'((:[0-9]{1,5})?\\/.*)?$/i' ,$mensaje)){
             $errors['formato-mensaje'] = 'El formato de mensaje es una URL';
             $bandera =  false;
         }        
         if ($bandera){
-            persistir_database($nombre, $telefono, $celular, $email, $fk_plan_estudios, $fk_campus, $fk_modalidad, $asunto, $mensaje);
+            persistir_database($nombre, $telefono, $celular, $email, $fk_plan_estudios, $fk_campus, $fk_modalidad, $mensaje);
             $data['success'] = true;
         }
         else{
@@ -62,7 +54,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
     echo json_encode($data);
 
 }
-function persistir_database($nombre, $telefono, $celular, $email, $fk_plan_estudios, $fk_campus, $fk_modalidad, $asunto, $mensaje){
+function persistir_database($nombre, $telefono, $celular, $email, $fk_plan_estudios, $fk_campus, $fk_modalidad, $mensaje){
     /*
     Conexion BD
     */
@@ -79,7 +71,7 @@ function persistir_database($nombre, $telefono, $celular, $email, $fk_plan_estud
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }
-    $sql = "INSERT INTO $table (id, nombre, telefono, celular, email, fk_plan_estudios , fk_campus, fk_modalidad, fecha_registro, asunto, mensaje) VALUES (NULL, '$nombre', '$telefono', '$celular', '$email', $fk_plan_estudios, $fk_campus, $fk_modalidad, '$date_time', '$asunto', '$mensaje')";
+    $sql = "INSERT INTO $table (id, nombre, telefono, celular, email, fk_plan_estudios , fk_campus, fk_modalidad, fecha_registro, mensaje) VALUES (NULL, '$nombre', '$telefono', '$celular', '$email', $fk_plan_estudios, $fk_campus, $fk_modalidad, '$date_time', '$mensaje')";
     if ($conn->query($sql) === FALSE){
         echo "Error: " . $sql . "<br>" . $conn->error;
     }
