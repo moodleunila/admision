@@ -1058,10 +1058,10 @@ $(document).ready(function(){
 	var licInformatica = "<option id='11' value='11'>Licenciatura en Informática  - UNAM</option>";	
 	var licPedagogia = "<option id='12' value='12'>Licenciatura en Pedagogía  - UNAM</option>";
 	var licContaduria = "<option id='13' value='13'>Licenciatura en Contaduría y Gestión Financiera - SEP</option>";
-	var licGastronomia = "<option id='14' value='14'>Licenciatura en Gastronomía y Administración Operativa - UNAM</option>";
+	var licGastronomia = "<option id='14' value='14'>Licenciatura en Gastronomía y Administración Operativa - SEEM</option>";
 	var licComunicacion = "<option id='15' value='15'>Licenciatura en Ciencias de la Comunicación y Periodismo - SEP</option>";	
 	var licMercadotecnia = "<option id='16' value='16'>Licenciatura en Mercadotecnia y Publicidad - SEP</option>";
-	var licTurismo = "<option id='17' value='17'>Licenciatura en Turismo - UNAM</option>";
+	var licTurismo = "<option id='17' value='17'>Licenciatura en Turismo - SEEM</option>";
 
 	/////Maestrías///////////////////////
 	var man = "<option id='18' value='18'>Maestría en Administración de Negocios - SEP</option>";
@@ -1081,6 +1081,7 @@ $(document).ready(function(){
 
 	//// Especialidad en publicidad ////////////////////////////////
 	var ep = "<option id='27' value='27'>Especialidad en Publicidad - SEP</option>";
+	var licPedagogiaSEEM = "<option id='12' value='12'>Licenciatura en Pedagogía - SEEM</option>";
 
 
 
@@ -1365,7 +1366,7 @@ $(document).ready(function(){
 		$("#plan-educativo").append(licMercadotecnia);
 		$("#plan-educativo").append(licGastronomia);
 		$("#plan-educativo").append(licTurismo);
-		$("#plan-educativo").append(licPedagogia);
+		$("#plan-educativo").append(licPedagogiaSEEM);
 		$("#plan-educativo").append(licDerechoSep);
 		$("#plan-educativo").append(licPsicologia);
 	}
@@ -1375,8 +1376,7 @@ $(document).ready(function(){
 		$("#plan-educativo").append(madm);
 		$("#plan-educativo").append(mdpeja);
 		$("#plan-educativo").append(mgfp);
-		$("#plan-educativo").append(md);
-		$("#plan-educativo").append(ep);
+		$("#plan-educativo").append(md);		
 		$("#plan-educativo").append(man);
 	}
 
