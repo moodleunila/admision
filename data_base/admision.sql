@@ -119,7 +119,7 @@ CREATE TABLE `cat_plan_estudios` (
   PRIMARY KEY (`id`),
   KEY `fk_nivel_educativo` (`fk_nivel_educativo`),
   CONSTRAINT `cat_plan_estudios_ibfk_1` FOREIGN KEY (`fk_nivel_educativo`) REFERENCES `cat_nivel_educativo` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=28 DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=29 DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -128,7 +128,7 @@ CREATE TABLE `cat_plan_estudios` (
 
 LOCK TABLES `cat_plan_estudios` WRITE;
 /*!40000 ALTER TABLE `cat_plan_estudios` DISABLE KEYS */;
-INSERT INTO `cat_plan_estudios` VALUES (0,'todos','registro ocupado en el home','2018-07-03 00:00:00','2018-07-03 00:00:00',1,1),(1,'Secundaria','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,1),(2,'Bachillerato Tecnológico en Comunicación - DGTI','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,2),(3,'Bachillerato Tecnológico en Informática - DGTI','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,2),(4,'Bachillerato Tecnológico en Turismo - DGTI','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,2),(5,'Bachillerato Tecnológico en Ventas - DGTI','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,2),(6,'Preparatoria - UNAM','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,2),(7,'Colegio de Ciencias y Humanidades - UNAM','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,2),(8,'Licenciatura en Derecho - UNAM','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,3),(9,'Licenciatura en Administración  - UNAM','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,3),(10,'Licenciatura en Psicología  - UNAM','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,3),(11,'Licenciatura en Informática  - UNAM','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,3),(12,'Licenciatura en Pedagogía  - UNAM','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,3),(13,'Licenciatura en Contaduría y Gestión Financiera - SEP','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,3),(14,'Licenciatura en Gastronomía y Administración Operativa - UNAM','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,3),(15,'Licenciatura en Ciencias de la Comunicación y Periodismo - SEP','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,3),(16,'Licenciatura en Mercadotecnia y Publicidad - SEP','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,3),(17,'Licenciatura en Turismo - UNAM','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,3),(18,'Maestría en Administración de Negocios - SEP','','2018-07-01 00:00:00','2018-07-02 00:00:00',1,4),(19,'Maestría en Alta Dirección en Mercadotecnia - SEP','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,4),(20,'Maestría en Comunicación Digital - SEP','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,4),(21,'Maestría en Derecho Penal con Énfasis en Juicios Adversariales - SEP','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,4),(22,'Maestría en Docencia - SEP','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,4),(23,'Maestría en Gestión y Finanzas Públicas - SEP','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,4),(24,'Maestría en Recursos Humanos - SEP','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,4),(25,'Doctorado en Educación - SEP','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,4),(26,'Licenciatura en Derecho - SEP','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,3),(27,'Especialidad en Publicidad - SEP','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,4);
+INSERT INTO `cat_plan_estudios` VALUES (0,'todos','registro ocupado en el home','2018-07-03 00:00:00','2018-07-03 00:00:00',1,1),(1,'Secundaria','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,1),(2,'Bachillerato Tecnológico en Comunicación - DGTI','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,2),(3,'Bachillerato Tecnológico en Informática - DGTI','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,2),(4,'Bachillerato Tecnológico en Turismo - DGTI','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,2),(5,'Bachillerato Tecnológico en Ventas - DGTI','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,2),(6,'Preparatoria - UNAM','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,2),(7,'Colegio de Ciencias y Humanidades - UNAM','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,2),(8,'Licenciatura en Derecho - UNAM','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,3),(9,'Licenciatura en Administración  - UNAM','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,3),(10,'Licenciatura en Psicología  - UNAM','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,3),(11,'Licenciatura en Informática  - UNAM','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,3),(12,'Licenciatura en Pedagogía  - UNAM','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,3),(13,'Licenciatura en Contaduría y Gestión Financiera - SEP','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,3),(14,'Licenciatura en Gastronomía y Administración Operativa - SEEM','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,3),(15,'Licenciatura en Ciencias de la Comunicación y Periodismo - SEP','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,3),(16,'Licenciatura en Mercadotecnia y Publicidad - SEP','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,3),(17,'Licenciatura en Turismo - SEEM','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,3),(18,'Maestría en Administración de Negocios - SEP','','2018-07-01 00:00:00','2018-07-02 00:00:00',1,4),(19,'Maestría en Alta Dirección en Mercadotecnia - SEP','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,4),(20,'Maestría en Comunicación Digital - SEP','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,4),(21,'Maestría en Derecho Penal con Énfasis en Juicios Adversariales - SEP','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,4),(22,'Maestría en Docencia - SEP','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,4),(23,'Maestría en Gestión y Finanzas Públicas - SEP','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,4),(24,'Maestría en Recursos Humanos - SEP','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,4),(25,'Doctorado en Educación - SEP','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,4),(26,'Licenciatura en Derecho - SEP','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,3),(27,'Especialidad en Publicidad - SEP','','2018-07-02 00:00:00','2018-07-02 00:00:00',1,4),(28,'Licenciatura en Pedagogía  - SEEM','','2018-07-26 00:00:00','2018-07-26 00:00:00',1,3);
 /*!40000 ALTER TABLE `cat_plan_estudios` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -142,6 +142,8 @@ DROP TABLE IF EXISTS `tbl_lead`;
 CREATE TABLE `tbl_lead` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
   `nombre` varchar(512) COLLATE utf8_spanish_ci NOT NULL,
+  `a_paterno` varchar(255) COLLATE utf8_spanish_ci NOT NULL,
+  `a_materno` varchar(255) COLLATE utf8_spanish_ci NOT NULL,
   `telefono` varchar(50) COLLATE utf8_spanish_ci NOT NULL,
   `celular` varchar(50) COLLATE utf8_spanish_ci NOT NULL,
   `email` varchar(255) COLLATE utf8_spanish_ci NOT NULL,
@@ -149,7 +151,6 @@ CREATE TABLE `tbl_lead` (
   `fk_campus` bigint(20) NOT NULL,
   `fk_modalidad` bigint(20) NOT NULL,
   `fecha_registro` datetime NOT NULL,
-  `asunto` varchar(255) COLLATE utf8_spanish_ci NOT NULL,
   `mensaje` varchar(1500) COLLATE utf8_spanish_ci NOT NULL,
   PRIMARY KEY (`id`),
   KEY `fk_plan_estudios` (`fk_plan_estudios`,`fk_campus`),
@@ -179,4 +180,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-07-04 13:18:23
+-- Dump completed on 2018-07-26 17:29:11

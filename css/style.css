@@ -2058,6 +2058,7 @@ img.author-box-image {
 #contactform select#campus,
 #contactform select#plan-estudios,
 #contactform select#modalidad-form,
+#contactform select#plan-estudios-select,
 #contactform textarea#mensaje-txt {
     width: 100%;
     padding: 10px 5px;
@@ -2069,7 +2070,9 @@ img.author-box-image {
     font-weight: bold;
 }
 
-#contactform input#telefono{
+#contactform input#telefono,
+#contactform input#aPaterno
+{
     float: left;
     width: 50%;
     padding: 10px 5px;
@@ -2081,7 +2084,9 @@ img.author-box-image {
     font-weight: bold;
 }
 
-#contactform input#celular{
+#contactform input#celular,
+#contactform input#aMaterno
+{
     margin-left: 2px;
     loat: left;
     width: 49%;

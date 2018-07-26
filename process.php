@@ -5,6 +5,8 @@ $errors = array(); // array to hold validation errors
 $data   = array(); // array to pass back data
 if($_SERVER['REQUEST_METHOD'] === 'POST') {
 	$nombre    = stripslashes(trim($_POST['nombre']));
+    $aPaterno    = stripslashes(trim($_POST['aPaterno']));
+    $aMaterno    = stripslashes(trim($_POST['aMaterno']));
     $telefono = stripslashes(trim($_POST['telefono']));
     $celular = stripslashes(trim($_POST['celular']));
     $email   = stripslashes(trim($_POST['email']));
@@ -15,6 +17,10 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if (empty($nombre)) {
         $errors['nombre'] = 'El nombre es requerido.';
+    }
+
+    if (empty($aPaterno)) {
+        $errors['paterno'] = 'El aPaterno es requerido.';
     }
 
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -36,13 +42,19 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
             $errors['formato-nombre'] = 'El formato de nombre es incorrecto';
             $bandera = false;
         }
+
+        $bandera = true;
+        if (!preg_match("([a-zA-ZñÑáéíóúÁÉÍÓÚ]+$)", $aPaterno)){
+            $errors['formato-paterno'] = 'El formato de paterno es incorrecto';
+            $bandera = false;
+        }
         
         if (preg_match('/(http|https):\\/\\/[a-z0-9]+([\\-\\.]{1}[a-z0-9]+)*\\.[a-z]{2,5}'.'((:[0-9]{1,5})?\\/.*)?$/i' ,$mensaje)){
             $errors['formato-mensaje'] = 'El formato de mensaje es una URL';
             $bandera =  false;
         }        
         if ($bandera){
-            persistir_database($nombre, $telefono, $celular, $email, $fk_plan_estudios, $fk_campus, $fk_modalidad, $mensaje);
+            persistir_database($nombre, $aPaterno, $aMaterno, $telefono, $celular, $email, $fk_plan_estudios, $fk_campus, $fk_modalidad, $mensaje);
             $data['success'] = true;
         }
         else{
@@ -54,7 +66,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
     echo json_encode($data);
 
 }
-function persistir_database($nombre, $telefono, $celular, $email, $fk_plan_estudios, $fk_campus, $fk_modalidad, $mensaje){
+function persistir_database($nombre, $aPaterno, $aMaterno, $telefono, $celular, $email, $fk_plan_estudios, $fk_campus, $fk_modalidad, $mensaje){
     /*
     Conexion BD
     */
@@ -71,7 +83,7 @@ function persistir_database($nombre, $telefono, $celular, $email, $fk_plan_estud
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }
-    $sql = "INSERT INTO $table (id, nombre, telefono, celular, email, fk_plan_estudios , fk_campus, fk_modalidad, fecha_registro, mensaje) VALUES (NULL, '$nombre', '$telefono', '$celular', '$email', $fk_plan_estudios, $fk_campus, $fk_modalidad, '$date_time', '$mensaje')";
+    $sql = "INSERT INTO $table (id, nombre, a_paterno, a_materno, telefono, celular, email, fk_plan_estudios , fk_campus, fk_modalidad, fecha_registro, mensaje) VALUES (NULL, '$nombre', '$aPaterno', '$aMaterno', '$telefono', '$celular', '$email', $fk_plan_estudios, $fk_campus, $fk_modalidad, '$date_time', '$mensaje')";
     if ($conn->query($sql) === FALSE){
         echo "Error: " . $sql . "<br>" . $conn->error;
     }

@@ -4,6 +4,8 @@ Consulta de obtención de datos general
 SELECT 
 	lead.id, 
 	lead.nombre, 
+	lead.a_paterno,
+	lead.a_materno,
 	lead.telefono, 
 	lead.celular, 
 	lead.email, 
@@ -11,8 +13,7 @@ SELECT
 	nivel.nombre as nivel, 
 	campus.nombre as campus, 
 	modalidad.nombre as modalidad, 
-	lead.fecha_registro, 
-	lead.asunto, 
+	lead.fecha_registro, 	
 	lead.mensaje 
 FROM tbl_lead as lead 
 INNER JOIN cat_plan_estudios as plan ON lead.fk_plan_estudios = plan.id 
@@ -26,6 +27,8 @@ Consulta de obtención de datos por medio de una fecha
 SELECT 
 	lead.id, 
 	lead.nombre, 
+	lead.a_paterno,
+	lead.a_materno,
 	lead.telefono, 
 	lead.celular, 
 	lead.email, 
@@ -33,9 +36,8 @@ SELECT
 	nivel.nombre as nivel, 
 	campus.nombre as campus, 
 	modalidad.nombre as modalidad, 
-	lead.fecha_registro, 
-	lead.asunto, 
-	lead.mensaje 
+	lead.fecha_registro, 	
+	lead.mensaje
 FROM tbl_lead as lead 
 INNER JOIN cat_plan_estudios as plan ON lead.fk_plan_estudios = plan.id 
 INNER JOIN cat_nivel_educativo as nivel ON plan.fk_nivel_educativo = nivel.id 
