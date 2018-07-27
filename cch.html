@@ -534,20 +534,23 @@
                         </div>
                         <div id="contactform">                        
                             <div class="alert alert-danger error-form" id="err-nombre" style="padding: 1px; margin: 1px;">Por favor coloque su nombre</div>
-                            <input type="text" name="nombre" id="nombre" placeholder="Nombre" style="background-color: #e9ecef;"/>
+                            <input type="text" name="nombre" id="nombre" placeholder="Nombre*" style="background-color: #e9ecef;"/>
+                            <div class="alert alert-danger error-form" id="err-paterno">Por favor coloque su apellido paterno</div>
+                            <input type="text" name="aPaterno" id="aPaterno" placeholder="Apellido paterno*" style="background-color: #e9ecef;"/>
+                            <input type="text" name="aMaterno" id="aMaterno" placeholder="Apellido materno" style="background-color: #e9ecef;"/>
                             <div class="alert alert-danger error-form"  id="err-telefono">Por favor coloque por lo menos un teléfono de contacto (sólo números)</div>
-                            <input type="text" name="telefono" id="telefono" placeholder="Teléfono" style="background-color: #e9ecef;"/>                                
+                            <input type="text" name="telefono" id="telefono" placeholder="Teléfono*" style="background-color: #e9ecef;"/>                                
                             <input type="text" name="celular" id="celular" placeholder="Celular" style="background-color: #e9ecef;"/>
                             <div class="alert alert-danger error-form"  id="err-email">Por favor coloque su e-mail</div>
-                            <input type="text" name="email" id="email" placeholder="Email" style="background-color: #e9ecef;"/>                           
+                            <input type="text" name="email" id="email" placeholder="Email*" style="background-color: #e9ecef;"/>                           
                             <div class="alert alert-danger error-form"  id="err-campus">Por favor seleccione un campus</div>
                             <select id="campus" name="campus" style="background-color: #e9ecef;">
-                                <option id="0" value="0">Selecciona campus</option>                            
+                                <option id="0" value="0">Selecciona campus*</option>                            
                                 <option id="1" value="1">Sur</option>                                                                
                             </select>
                             <div class="alert alert-danger error-form"  id="err-modalidad">Por favor seleccione una modalidad</div>
                             <select id="modalidad-form" name="modalidad-form" style="background-color: #e9ecef;">
-                                <option id="0" value="0">Selecciona modalidad</option>
+                                <option id="0" value="0">Selecciona modalidad*</option>
                                 <option id="1a" value="1">Matutino</option>                            
                             </select>
 

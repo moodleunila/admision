@@ -19,8 +19,8 @@ $(document).ready(function(){
             $("#err-nombre").show("slow");
             enviar = false;
         }
-
-        if(aPaterno == "" || aPaterno == null){
+        
+        if(aPaterno == "" || aPaterno == null){            
             $("#err-paterno").show("slow");
             enviar = false;
         }
@@ -54,10 +54,9 @@ $(document).ready(function(){
         if(modalidad < 1){
             $("#err-modalidad").show("slow");
             enviar = false;
-        }
+        }        
         
-        if(enviar){
-
+        if(enviar){            
             var datos = {
                 'nombre' : nombre,
                 'aPaterno' : aPaterno,

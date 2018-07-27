@@ -3,6 +3,8 @@ $(document).ready(function(){
     $("#enviar").on("click", function(){
         $(".error-form").hide();
         var nombre = $("#nombre").val();
+        var aPaterno = $("#aPaterno").val();
+        var aMaterno = $("#aMaterno").val();
         var telefono = $("#telefono").val();
         var celular = $("#celular").val();
         var email = $("#email").val();        
@@ -17,6 +19,11 @@ $(document).ready(function(){
 
         if(nombre == "" || nombre == null){
             $("#err-nombre").show("slow");
+            enviar = false;
+        }
+
+        if(aPaterno == "" || aPaterno == null){            
+            $("#err-paterno").show("slow");
             enviar = false;
         }
 
@@ -55,6 +62,8 @@ $(document).ready(function(){
 
             var datos = {
                 'nombre' : nombre,
+                'aPaterno' : aPaterno,
+                'aMaterno' : aMaterno,
                 'telefono' : telefono,
                 'celular' : celular,
                 'email' : email,                
