@@ -85,7 +85,7 @@ $(document).ready(function(){
                     $("#titulo-formulario").hide("slow");
                     window.piwikAsyncInit = function () {
                         var et_tracker = Piwik.getTracker();
-                        et_tracker.setUserId(email);                        
+                        et_tracker.setUserId(md5(email));                        
                         et_tracker.trackGoal(1);
                     }
                 },
