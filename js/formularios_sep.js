@@ -84,6 +84,11 @@ $(document).ready(function(){
                     $("#success-form").show("slow");
                     $("#contactform").hide("slow");
                     $("#danger-form").hide("slow");
+                    window.piwikAsyncInit = function () {
+                        var et_tracker = Piwik.getTracker();
+                        et_tracker.setUserId(email);                        
+                        et_tracker.trackGoal(1);
+                    }
                 },
                 error: function(xhr, status){
                     $("#danger-form").show("slow");

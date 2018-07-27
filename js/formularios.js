@@ -79,6 +79,11 @@ $(document).ready(function(){
                     $("#danger-form").hide("slow");
                     $("#calculo").show("slow");
                     $("#titulo-formulario").hide("slow");
+                    window.piwikAsyncInit = function () {
+                        var et_tracker = Piwik.getTracker();
+                        et_tracker.setUserId(email);                        
+                        et_tracker.trackGoal(1);
+                    }
                 },
                 error: function(xhr, status){
                     $("#danger-form").show("slow");
