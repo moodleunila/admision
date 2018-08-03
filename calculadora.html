@@ -168,11 +168,11 @@
                             Ha ocurrido un problema, verifique sus datos por favor.
                         </div>
                         <div id="contactform">                        
-                            <div class="alert alert-danger error-form" id="err-nombre" style="padding: 1px; margin: 1px;">Por favor coloque su nombre</div>
-                            <input type="text" name="nombre" id="nombre" placeholder="Nombre*" style="background-color: #e9ecef;"/>
-                            <div class="alert alert-danger error-form" id="err-paterno">Por favor coloque su apellido paterno</div>
-                            <input type="text" name="aPaterno" id="aPaterno" placeholder="Apellido paterno*" style="background-color: #e9ecef;"/>
-                            <input type="text" name="aMaterno" id="aMaterno" placeholder="Apellido materno" style="background-color: #e9ecef;"/>
+                            <div class="alert alert-danger error-form" id="err-nombre" style="padding: 1px; margin: 1px;">Por favor coloque su nombre <span class="negritas">sin acentos</span></div>
+                            <input type="text" name="nombre" id="nombre" placeholder="Nombre* (sin acentos)" style="background-color: #e9ecef;"/>
+                            <div class="alert alert-danger error-form" id="err-paterno">Por favor coloque su apellido paterno <span class="negritas">sin acentos</span></div><div class="alert alert-danger error-form" id="err-materno">Por favor coloque su apellido materno <span class="negritas">sin acentos</span></div>
+                            <input type="text" name="aPaterno" id="aPaterno" placeholder="Apellido paterno* (sin acentos)" style="background-color: #e9ecef;"/>
+                            <input type="text" name="aMaterno" id="aMaterno" placeholder="Apellido materno (sin acentos)" style="background-color: #e9ecef;"/>
                             <div class="alert alert-danger error-form"  id="err-telefono">Por favor coloque por lo menos un teléfono de contacto (sólo números)</div>
                             <input type="text" name="telefono" id="telefono" placeholder="Teléfono*" style="background-color: #e9ecef;"/>                                
                             <input type="text" name="celular" id="celular" placeholder="Celular" style="background-color: #e9ecef;"/>
@@ -196,8 +196,9 @@
                                 <option id="1a" value="1">Matutino</option>  
                                 <option id="2a" value="2">Vespertino</option>
                                 <option id="3a" value="3">Sistema Abierto</option>                                  
-                            </select>                            
-                            <textarea name="mensaje-txt" id="mensaje-txt" placeholder="Mensaje" rows="5" style="background-color: #e9ecef;"></textarea>
+                            </select>
+                            <div class="alert alert-danger error-form" id="err-mensaje">Por favor coloque el mensaje <span class="negritas">sin acentos</span></div>                            
+                            <textarea name="mensaje-txt" id="mensaje-txt" placeholder="Mensaje (sin acentos)" rows="5" style="background-color: #e9ecef;"></textarea>
                             <button class="btn btn-outlined btn-primary" name="enviar" id="enviar" >Enviar</button>
                         </div>
                     </div><!-- col -->

@@ -14,15 +14,42 @@ $(document).ready(function(){
         var plan = $("#plan-estudios-select option:selected").val();
         var telLocal = true;
         var enviar = true;
+        var acentos = new RegExp(/[á|é|í|ó|ú]/);  
 
         if(nombre == "" || nombre == null){
             $("#err-nombre").show("slow");
             enviar = false;
         }
+
+              
+        if (acentos.test(nombre)){
+            enviar = false;            
+            $("#err-nombre").show("slow");
+        }
         
         if(aPaterno == "" || aPaterno == null){            
             $("#err-paterno").show("slow");
             enviar = false;
+        }
+
+
+        if (acentos.test(aPaterno)){
+            enviar = false;            
+            $("#err-paterno").show("slow");
+        }
+
+        if(aMaterno != "" || aMaterno != null){
+            if (acentos.test(aMaterno)){
+                enviar = false;            
+                $("#err-materno").show("slow");
+            }
+        }
+
+        if(mensaje != "" || mensaje != null){
+            if (acentos.test(mensaje)){
+                enviar = false;
+                $("#err-mensaje").show("slow");
+            }
         }
 
         if(telefono == "" || telefono == null || isNaN(telefono))
