@@ -13,7 +13,7 @@ $(document).ready(function(){
 			switch (modalidad){
 				case 1://Matutino
 					inscripcion = "$4,160";
-					colegiatura = "$3,680";
+					colegiatura = "$3,681";
 					tramites = "$1,885";				
 					break;
 
@@ -199,8 +199,8 @@ $(document).ready(function(){
 					break;
 
 				case 2://Vespertino
-					inscripcion = "$1,749";
-					colegiatura = "$2,758";
+					inscripcion = "$1,799";
+					colegiatura = "$2,958";
 					tramites = "$232";
 					break;
 
@@ -220,8 +220,8 @@ $(document).ready(function(){
 					break;
 
 				case 2://Vespertino
-					inscripcion = "$1,807";
-					colegiatura = "$2,849";
+					inscripcion = "$1,749";
+					colegiatura = "$2,758";
 					tramites = "$232";
 					break;
 
@@ -250,7 +250,7 @@ $(document).ready(function(){
 			inicio_clases = "03/09/2018";
 			periodo = "Cuatrimestral";
 			inscripcion = "$2,767";
-			colegiatura = "$3,648";
+			colegiatura = "$3,647";
 			tramites = "$232";					
 		}
 
@@ -258,7 +258,7 @@ $(document).ready(function(){
 			inicio_clases = "03/09/2018";
 			periodo = "Cuatrimestral";
 			inscripcion = "$2,767";
-			colegiatura = "$3,648";
+			colegiatura = "$3,647";
 			tramites = "$232";					
 		}
 
@@ -406,7 +406,7 @@ $(document).ready(function(){
 			inicio_clases = "03/09/2018";
 			periodo = "Cuatrimestral";			
 			inscripcion = "$1,773";
-			colegiatura = "$3,203";
+			colegiatura = "$3,204";
 			tramites = "$232";
 		}
 
@@ -414,7 +414,7 @@ $(document).ready(function(){
 			inicio_clases = "03/09/2018";	
 			periodo = "Cuatrimestral";				
 			inscripcion = "$1,773";
-			colegiatura = "$3,203";
+			colegiatura = "$3,204";
 			tramites = "$232";					
 		}
 
@@ -422,7 +422,7 @@ $(document).ready(function(){
 			inicio_clases = "03/09/2018";		
 			periodo = "Cuatrimestral";			
 			inscripcion = "$1,544";
-			colegiatura = "$2,550";
+			colegiatura = "$2,549";
 			tramites = "$232";					
 		}
 
@@ -659,7 +659,7 @@ $(document).ready(function(){
 			periodo = "Cuatrimestral";			
 			inicio_clases = "03/09/2018";
 			inscripcion = "$1,906";
-			colegiatura = "$2,183";
+			colegiatura = "$2,182";
 			tramites = "$232";
 		}
 
@@ -667,7 +667,7 @@ $(document).ready(function(){
 			periodo = "Cuatrimestral";			
 			inicio_clases = "03/09/2018";
 			inscripcion = "$1,906";
-			colegiatura = "$2,183";
+			colegiatura = "$2,182";
 			tramites = "$232";
 		}
 
@@ -675,7 +675,7 @@ $(document).ready(function(){
 			periodo = "Cuatrimestral";			
 			inicio_clases = "03/09/2018";
 			inscripcion = "$1,840";
-			colegiatura = "$1,980";
+			colegiatura = "$1,981";
 			tramites = "$232";
 		}
 
@@ -691,7 +691,7 @@ $(document).ready(function(){
 			periodo = "Cuatrimestral";			
 			inicio_clases = "03/09/2018";
 			inscripcion = "$1,906";
-			colegiatura = "$2,183";
+			colegiatura = "$2,182";
 			tramites = "$232";
 		}
 	/*##### F I N   C A M P U S   C U A U T L A ######*/
@@ -715,7 +715,7 @@ $(document).ready(function(){
 		function bachComunicacionCuernavaca(){
 			periodo = "Semestral";			
 			inicio_clases = "Por confirmar";
-			inscripcion = "$3,645";
+			inscripcion = "$3,644";
 			colegiatura = "$3,042";
 			tramites = "$232";			
 		}
@@ -723,7 +723,7 @@ $(document).ready(function(){
 		function bachInformaticaCuernavaca(){
 			periodo = "Semestral";			
 			inicio_clases = "Por confirmar";
-			inscripcion = "$3,645";
+			inscripcion = "$3,644";
 			colegiatura = "$3,042";
 			tramites = "$232";	
 		}
@@ -731,7 +731,7 @@ $(document).ready(function(){
 		function bachTurismoCuernavaca(){
 			periodo = "Semestral";			
 			inicio_clases = "Por confirmar";
-			inscripcion = "$3,645";
+			inscripcion = "$3,644";
 			colegiatura = "$3,042";
 			tramites = "$232";	
 		}
@@ -739,7 +739,7 @@ $(document).ready(function(){
 		function bachVentasCuernavaca(){
 			periodo = "Semestral";			
 			inicio_clases = "Por confirmar";
-			inscripcion = "$3,645";
+			inscripcion = "$3,644";
 			colegiatura = "$3,042";
 			tramites = "$232";	
 		}
@@ -940,7 +940,7 @@ $(document).ready(function(){
 		function manCuernavaca(){
 			periodo = "Cuatrimestral";			
 			inicio_clases = "03/09/2018";
-			inscripcion = "$3,094";
+			inscripcion = "$3,095";
 			colegiatura = "$2,325";
 			tramites = "$232";
 		}
@@ -948,7 +948,7 @@ $(document).ready(function(){
 		function mrhCuernavaca(){
 			periodo = "Cuatrimestral";			
 			inicio_clases = "03/09/2018";
-			inscripcion = "$3,094";
+			inscripcion = "$3,095";
 			colegiatura = "$2,325";
 			tramites = "$232";
 		}
@@ -956,7 +956,7 @@ $(document).ready(function(){
 		function mgfpCuernavaca(){
 			periodo = "Cuatrimestral";			
 			inicio_clases = "03/09/2018";
-			inscripcion = "$3,094";
+			inscripcion = "$3,095";
 			colegiatura = "$2,325";
 			tramites = "$232";
 		}
@@ -964,7 +964,7 @@ $(document).ready(function(){
 		function mdCuernavaca(){
 			periodo = "Cuatrimestral";			
 			inicio_clases = "03/09/2018";
-			inscripcion = "$1,820";
+			inscripcion = "$1,819";
 			colegiatura = "$1,967";
 			tramites = "$232";
 		}
@@ -989,7 +989,7 @@ $(document).ready(function(){
 			periodo = "Trimestral";			
 			inicio_clases = "27/08/2018";
 			inscripcion = "$1,809";
-			colegiatura = "$2,491";
+			colegiatura = "$2,492";
 			tramites = "$232";
 		}
 	/*############## F I N  C A M P U S   C U E R N A V A C A ######*/

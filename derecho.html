@@ -12,27 +12,15 @@
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    !-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122831332-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-122831332-1');
-    </script>    
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->       
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122831332-1"></script>    
     <script src="js/jquery.js"></script>
     <link rel="shortcut icon" href="images/unila/logo.png">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144x144.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114x114.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/images/ico/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57x57.png">
-    <link rel="icon" type="image/png" href="images/unila/logo.png">
-    <script type="text/javascript" src="js/formularios_sep.js"></script>
+    <link rel="icon" type="image/png" href="images/unila/logo.png">    
     <script type="text/javascript">
     jQuery(document).ready(function($){
     'use strict';
@@ -70,6 +58,14 @@
         });
     });
     </script>
+    <script type="text/javascript" src="js/analytics.js"></script>
+    <script src="js/educaedu.js"></script>
+    <noscript>
+        <p>
+            <img src="//track.educatrack.com/track?rec=1&idsite=555&rec=1" style="border:0;" alt="" />
+        </p>
+    </noscript>
+    <script type="text/javascript" src="js/formularios_sep.js"></script>
 </head><!--/head-->
 <body>
 <div id="preloader"></div>
@@ -1095,16 +1091,19 @@
                             Ha ocurrido un problema, verifique sus datos por favor.
                         </div>
                         <div id="contactform">                        
-                            <div class="alert alert-danger error-form" id="err-nombre" style="padding: 1px; margin: 1px;">Por favor coloque su nombre</div>
-                            <input type="text" name="nombre" id="nombre" placeholder="Nombre" style="background-color: #e9ecef;"/>
+                            <div class="alert alert-danger error-form" id="err-nombre" style="padding: 1px; margin: 1px;">Por favor coloque su nombre <span class="negritas">sin acentos</span></div>
+                            <input type="text" name="nombre" id="nombre" placeholder="Nombre* (sin acentos)" style="background-color: #e9ecef;"/>
+                            <div class="alert alert-danger error-form" id="err-paterno">Por favor coloque su apellido paterno <span class="negritas">sin acentos</span></div><div class="alert alert-danger error-form" id="err-materno">Por favor coloque su apellido materno <span class="negritas">sin acentos</span></div>
+                            <input type="text" name="aPaterno" id="aPaterno" placeholder="Apellido paterno* (sin acentos)" style="background-color: #e9ecef;"/>
+                            <input type="text" name="aMaterno" id="aMaterno" placeholder="Apellido materno (sin acentos)" style="background-color: #e9ecef;"/>
                             <div class="alert alert-danger error-form"  id="err-telefono">Por favor coloque por lo menos un teléfono de contacto (sólo números)</div>
-                            <input type="text" name="telefono" id="telefono" placeholder="Teléfono" style="background-color: #e9ecef;"/>                                
+                            <input type="text" name="telefono" id="telefono" placeholder="Teléfono*" style="background-color: #e9ecef;"/>                                
                             <input type="text" name="celular" id="celular" placeholder="Celular" style="background-color: #e9ecef;"/>
                             <div class="alert alert-danger error-form"  id="err-email">Por favor coloque su e-mail</div>
-                            <input type="text" name="email" id="email" placeholder="Email" style="background-color: #e9ecef;"/>                           
+                            <input type="text" name="email" id="email" placeholder="Email*" style="background-color: #e9ecef;"/>                           
                             <div class="alert alert-danger error-form"  id="err-campus">Por favor seleccione un campus</div>
                             <select id="campus" name="campus" style="background-color: #e9ecef;">
-                                <option id="0" value="0">Selecciona campus</option>   
+                                <option id="0" value="0">Selecciona campus*</option>   
                                 <option id="1" value="1">Sur</option>                             
                                 <option id="2" value="2">Roma</option>    
                                 <option id="3" value="3">Cuautla</option>                                
@@ -1112,7 +1111,7 @@
                             </select>
                             <div class="alert alert-danger error-form"  id="err-modalidad">Por favor seleccione una modalidad</div>
                             <select id="modalidad-form" name="modalidad-form" style="background-color: #e9ecef;">
-                                <option id="0" value="0">Selecciona modalidad</option>
+                                <option id="0" value="0">Selecciona modalidad*</option>
                                 <option id="1a" value="1">Matutino</option>  
                                 <option id="2a" value="2">Vespertino</option>  
                                 <option id="3a" value="3">Sistema Abierto</option>                            
@@ -1126,7 +1125,7 @@
                                 <option id="2b" value="26">SEP</option>
                             </select>   
 
-                            <textarea name="mensaje-txt" id="mensaje-txt" placeholder="Mensaje" style="background-color: #e9ecef;" rows="5"></textarea>
+                            <div class="alert alert-danger error-form" id="err-mensaje">Por favor coloque el mensaje <span class="negritas">sin acentos</span></div><textarea name="mensaje-txt" id="mensaje-txt" placeholder="Mensaje (sin acentos)" style="background-color: #e9ecef;" rows="5"></textarea>
                             <button class="btn btn-outlined btn-primary" name="enviar" id="enviar" >Enviar</button>
                         </div>
                     </div><!-- col -->

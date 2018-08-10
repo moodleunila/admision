@@ -7,31 +7,31 @@ $(document).ready(function(){
         var aMaterno = $("#aMaterno").val();
         var telefono = $("#telefono").val();
         var celular = $("#celular").val();
-        var email = $("#email").val();        
+        var email = $("#email").val();       
         var mensaje = $("#mensaje-txt").val();
         var campus = $("#campus option:selected").val();
         var modalidad = $("#modalidad-form option:selected").val();
-        var plan = $("#plan-estudios option:selected").val();
-        console.log("plan: " + plan);
+        var plan = $("#plan-estudios-select option:selected").val();
         var telLocal = true;
         var enviar = true;
-        var acentos = new RegExp(/[á|é|í|ó|ú]/); 
-
+        var acentos = new RegExp(/[á|é|í|ó|ú]/);  
 
         if(nombre == "" || nombre == null){
             $("#err-nombre").show("slow");
             enviar = false;
         }
 
+              
         if (acentos.test(nombre)){
             enviar = false;            
             $("#err-nombre").show("slow");
         }
-
+        
         if(aPaterno == "" || aPaterno == null){            
             $("#err-paterno").show("slow");
             enviar = false;
         }
+
 
         if (acentos.test(aPaterno)){
             enviar = false;            
@@ -65,26 +65,25 @@ $(document).ready(function(){
         if (caract.test(email) == false){
             enviar = false;
             $("#err-email").show("slow");
-        }        
-        
-        
+        }
+
+                
         if(campus < 1){
             $("#err-campus").show("slow");
             enviar = false;
         }
 
+        if(plan < 1){
+            $("#err-plan").show("slow");
+            enviar = false;   
+        }
+
         if(modalidad < 1){
             $("#err-modalidad").show("slow");
             enviar = false;
-        }
-
-        if(plan < 1){
-            $("#err-plan").show("slow");
-            enviar = false;
-        }
-
-        if(enviar){
-
+        }        
+        
+        if(enviar){            
             var datos = {
                 'nombre' : nombre,
                 'aPaterno' : aPaterno,
@@ -109,6 +108,8 @@ $(document).ready(function(){
                     $("#success-form").show("slow");
                     $("#contactform").hide("slow");
                     $("#danger-form").hide("slow");
+                    $("#calculo").show("slow");
+                    $("#titulo-formulario").hide("slow");
                     window.piwikAsyncInit = function () {
                         var et_tracker = Piwik.getTracker();
                         et_tracker.setUserId(md5(email));                        

@@ -13,22 +13,9 @@
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <script src="js/jquery.js"></script>
-    !-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122831332-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-122831332-1');
-    </script>
-    <script type="text/javascript" src="js/formularios.js"></script>
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->         
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122831332-1"></script>  
     <link rel="icon" type="image/png" href="images/unila/logo.png">
-
     <script type="text/javascript">
     jQuery(document).ready(function($){
 	'use strict';
@@ -41,6 +28,15 @@
 	    ], {duration: 5000, fade: 500, centeredY: true });
     });
     </script>
+    <script type="text/javascript" src="js/analytics.js"></script>
+    <script src="js/educaedu.js"></script>    
+    <noscript>
+        <p>
+            <img src="//track.educatrack.com/track?rec=1&idsite=555&rec=1" style="border:0;" alt="" />
+        </p>
+    </noscript>    
+    <script src="js/planes_estudio.js"></script>
+    <script type="text/javascript" src="js/formulario_homes.js"></script>
 </head><!--/head-->
 <body>
 <div id="preloader"></div>
@@ -60,11 +56,9 @@
                     <a href="#oferta-educativa-s" class="dropdown-toggle" data-toggle="dropdown">Oferta<i class="icon-angle-down"></i></a>
                     <ul class="dropdown-menu">
                         <li><a href="#"><br><br>Básica</a></li>
-                        <li><a href="#">Media superior</a></li>
+                        <li><a href="#">Medio superior</a></li>
                         <li><a href="#">Bachillerato</a></li>
-                        <li><a href="./licenciaturas/">Licenciaturas</a></li>
-                        <li><a href="#">Maestrías</a></li>
-                        <li><a href="#">Doctorado</a></li>
+                        <li><a href="./licenciaturas/">Licenciaturas</a></li>                        
                     </ul>
                     </li>                    
                     <li><a href="#planes-apoyo-economico">Planes de Apoyo</a></li>    
@@ -135,7 +129,7 @@
                 <br>
                 <br>
                 <div class="row">                    
-                    <div class="col-md-3 col-sm-12">
+                    <div class="col-md-4 col-sm-12">
                         <a href="secundaria.html" target="_blank">
                             <div class="service-block">
                                 <div class="pull-left bounce-in">
@@ -152,7 +146,7 @@
                         </a>
                     </div><!--/.col-md-4-->                   
                     
-                    <div class="col-md-3 col-sm-12">                        
+                    <div class="col-md-4 col-sm-12">                        
                         <a href="bachilleratost.html" target="_blank">
                         <div class="service-block">
                             <div class="pull-left bounce-in">
@@ -172,7 +166,7 @@
                         </a>
                     </div><!--/.col-md-4-->
 
-                    <div class="col-md-3 col-sm-12">
+                    <div class="col-md-4 col-sm-12">
                         <a href="preparatorias.html" target="_blank">
                             <div class="service-block">
                                 <div class="pull-left bounce-in">
@@ -190,7 +184,7 @@
                         </a>
                     </div><!--/.row-->
 
-                    <div class="col-md-3 col-sm-12">
+                    <div class="col-md-4 col-sm-12">
                         <a href="licenciaturasr.html" target="_blank">                                         
                             <div class="service-block">
                                 <div class="pull-left bounce-in">
@@ -203,14 +197,9 @@
                                 </div>
                             </div>
                         </a>
-                    </div><!--/.col-md-4--> 
-                    
-                    <br>
-                    <br> 
-                </div>
-                    <!--
+                    </div><!--/.col-md-4-->
                     <div class="col-md-4 col-sm-6">
-                        <a href="">
+                        <a href="maestrias.html" target="_blank">
                             <div class="service-block">
                                 <div class="pull-left bounce-in">
                                     <img class="fa fa-dashboard fa fa-md" src="images/unila/iconos-admi/maestrias.png">
@@ -221,9 +210,9 @@
                                 </div>
                             </div>
                         </a>                        
-                    </div><!--/.col-md-4-->                    
-                    <!--<div class="col-md-4 col-sm-6">
-                        <a href="">
+                    </div>                
+                    <div class="col-md-4 col-sm-6">
+                        <a href="doctorado_educacion.html" target="_blank">
                             <div class="service-block">
                                 <div class="pull-left bounce-in">
                                     <img class="fa fa-dashboard fa fa-md" src="images/unila/iconos-admi/doc.png">
@@ -234,7 +223,10 @@
                                 </div>
                             </div>
                         </a>
-                    </div><!--/.col-md-4-->                                    
+                    </div><!--/.col-md-4-->
+                    <br>
+                    <br> 
+                </div>                                                       
                 <br>
                 <br>
                 <br>
@@ -261,7 +253,7 @@
                 <br>
                 <div class="container">
                     <div class="center gap fade-down section-heading">
-                        <h2 class="main-title texto-dorado">Planes de Apoyo Económico</h2>                        
+                        <h2 class="main-title texto-dorado">Planes de apoyo económico</h2>                        
                     </div>                    
                 </div>
             </div>
@@ -299,7 +291,7 @@
             <div class="container">
                 <div class="row">                   
                     <div class="col-md-12 col-sm-12 center">
-                        <div class="container-wrapper-genially" style="position: relative; min-height: 400px; max-width: 100%;"><img src="https://genially.blob.core.windows.net/genially/version3.0/loader.gif" class="loader-genially" style="position: absolute; top: 0; right: 0; bottom: 0; left: 0; margin-top: auto; margin-right: auto; margin-bottom: auto; margin-left: auto; z-index: 1;width: 120px; height: 120px;"/><div id="5b4f4cdad94ec11008ebf9ae" class="genially-embed" style="margin: 0px auto; position: relative; height: auto; width: 100%;"></div></div><script>(function (d) { var js, id = "genially-embed-js", ref = d.getElementsByTagName("script")[0]; if (d.getElementById(id)) { return; } js = d.createElement("script"); js.id = id; js.async = true; js.src = "https://view.genial.ly/static/embed/embed.js"; ref.parentNode.insertBefore(js, ref); }(document));</script>
+                        <div class="container-wrapper-genially" style="position: relative; min-height: 400px; max-width: 100%;"><img src="https://genially.blob.core.windows.net/genially/version3.0/loader.gif" class="loader-genially" style="position: absolute; top: 0; right: 0; bottom: 0; left: 0; margin-top: auto; margin-right: auto; margin-bottom: auto; margin-left: auto; z-index: 1;width: 120px; height: 120px;"/><div id="5b5b3306e40f1e2b95e04aaa" class="genially-embed" style="margin: 0px auto; position: relative; height: auto; width: 100%;"></div></div><script>(function (d) { var js, id = "genially-embed-js", ref = d.getElementsByTagName("script")[0]; if (d.getElementById(id)) { return; } js = d.createElement("script"); js.id = id; js.async = true; js.src = "https://view.genial.ly/static/embed/embed.js"; ref.parentNode.insertBefore(js, ref); }(document));</script>
                     </div>
                     
                 </div>
@@ -392,30 +384,38 @@
                         <div class="alert alert-success" style="display: none;" id="success-form">La información ha sido enviada correctamente, en menos de 24 hrs. tendrá respuesta a su petición, ¡Gracias!</div>
                         <div class="alert alert-danger error-form" id="danger-form">Ha ocurrido un problema, verifique sus datos por favor.</div>
                         <div id="contactform">
-                            <div class="alert alert-danger error-form" id="err-nombre">Por favor coloque su nombre</div>
-                            <input type="text" name="nombre" id="nombre" placeholder="Nombre" />
+                            <div class="alert alert-danger error-form" id="err-nombre">Por favor coloque su nombre <span class="negritas">sin acentos</span></div>
+                            <input type="text" name="nombre" id="nombre" placeholder="Nombre* (sin acentos)" />
+                            <div class="alert alert-danger error-form" id="err-paterno">Por favor coloque su apellido paterno <span class="negritas">sin acentos</span></div><div class="alert alert-danger error-form" id="err-materno">Por favor coloque su apellido materno <span class="negritas">sin acentos</span></div>
+                            
+                            <input type="text" name="aPaterno" id="aPaterno" placeholder="Apellido paterno* (sin acentos)" />
+                            <input type="text" name="aMaterno" id="aMaterno" placeholder="Apellido materno (sin acentos)" />
                             <div class="alert alert-danger error-form"  id="err-telefono">Por favor coloque por lo menos un teléfono de contacto (sólo números)</div>
-                            <input type="text" name="telefono" id="telefono" placeholder="Teléfono" />                                
+                            <input type="text" name="telefono" id="telefono" placeholder="Teléfono*" />                                
                             <input type="text" name="celular" id="celular" placeholder="Celular" />
                             <div class="alert alert-danger error-form"  id="err-email">Por favor coloque su e-mail</div>
-                            <input type="text" name="email" id="email" placeholder="Email" />                           
+                            <input type="text" name="email" id="email" placeholder="Email*" />                           
                             <div class="alert alert-danger error-form"  id="err-campus">Por favor seleccione un campus</div>
                             <select id="campus" name="campus">
-                                <option id="0" value="0">Selecciona campus</option>
+                                <option id="0" value="0">Selecciona campus*</option>
                                 <option id="1" value="1">Sur</option>
                                 <option id="2" value="2">Roma</option>
                                 <option id="3" value="3">Cuautla</option>
                                 <option id="4" value="4">Cuernavaca</option>
                             </select>
+                            <div class="alert alert-danger error-form"  id="err-plan">Por favor seleccione un plan de estudios</div>
+                            <select id="plan-estudios-select" name="plan-estudios-select">
+                                <option id="0" value="0">Seleccione plan de estudios*</option>                                
+                            </select>
                             <div class="alert alert-danger error-form"  id="err-modalidad">Por favor seleccione una modalidad</div>
                             <select id="modalidad-form" name="modalidad-form">
-                                <option id="0" value="0">Selecciona modalidad</option>
+                                <option id="0" value="0">Selecciona modalidad*</option>
                                 <option id="1a" value="1">Matutino</option>
                                 <option id="2a" value="2">Vespertino</option>
                                 <option id="3a" value="3">Sistema Abierto</option>                                    
-                            </select>
-                            <input type="hidden" name="plan-estudios" id="plan-estudios" value="0">                                 
-                            <textarea name="mensaje-txt" id="mensaje-txt" placeholder="Mensaje" rows="5"></textarea>
+                            </select>                                                            
+                            <div class="alert alert-danger error-form" id="err-mensaje">Por favor coloque el mensaje <span class="negritas">sin acentos</span></div>
+                            <textarea name="mensaje-txt" id="mensaje-txt" placeholder="Mensaje (sin acentos)" rows="5"></textarea>                            
                             <button class="btn btn-outlined btn-primary" name="enviar" id="enviar" >Enviar</button>
                         </div>
                     </div>
