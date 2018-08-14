@@ -2504,3 +2504,37 @@ img.author-box-image {
    50% { opacity: 0.0; }
   100% { opacity: 1.0; }
 }
+
+
+.fondo-paleta-11{
+    background-color: #0C3E6B; 
+    color: #FFF;
+}
+
+.fondo-paleta-12{
+    background-color: #f6f2ee; 
+    color: #000;
+}
+
+.fondo-paleta-13{
+    background-color: #0B5084;
+    color: #FFF; 
+}
+
+.fondo-paleta-14{
+    background-color: #CBBAA3; 
+}
+
+.fondo-paleta-15{
+    background-color: #0A649B; 
+    color: #FFF;
+}
+
+.fondo-paleta-16{
+    background-color: #DDD2C3; 
+}
+
+.fondo-paleta-17{
+    background-color: #725533; 
+    color: #FFF;
+}
